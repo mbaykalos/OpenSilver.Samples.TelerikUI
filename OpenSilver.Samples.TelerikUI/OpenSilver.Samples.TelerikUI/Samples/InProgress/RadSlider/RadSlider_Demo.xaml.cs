@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Controls.Primitives;
+using System.Windows.Data;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Navigation;
+using Telerik.Windows.Controls;
+
+namespace OpenSilver.Samples.TelerikUI
+{
+    public partial class RadSlider_Demo : UserControl
+    {
+        public RadSlider_Demo()
+        {
+            this.InitializeComponent();
+        }
+
+        private void ButtonViewSource_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+    }
+}

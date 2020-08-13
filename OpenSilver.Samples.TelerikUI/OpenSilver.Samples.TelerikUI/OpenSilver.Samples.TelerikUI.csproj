@@ -1,0 +1,218 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <Configurations>Debug;Release;</Configurations>
+  </PropertyGroup>
+
+  <!-- Blazor Part -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RazorLangVersion>3.0</RazorLangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>DEBUG;OPENSILVER</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>OPENSILVER</DefineConstants>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <None Remove="EmptyOpenSilverMigrationApplication.csproj.vspscc" />
+    <None Remove="MyTemplate_rename_me_after_export.vstemplate" />
+    <None Remove="Other\Styles.xaml" />
+    <None Remove="Other\Themes\Brushes.xaml" />
+    <None Remove="Other\Themes\FontFamily.xaml" />
+    <None Remove="Other\Themes\ProgressBar_style.xaml" />
+    <None Remove="Other\Themes\System.Windows.xaml" />
+    <None Remove="Other\Themes\Telerik.Windows.Controls.Docking.xaml" />
+    <None Remove="Other\Themes\Telerik.Windows.Controls.GridView.xaml" />
+    <None Remove="Other\Themes\Telerik.Windows.Controls.Input.xaml" />
+    <None Remove="Other\Themes\Telerik.Windows.Controls.Navigation.xaml" />
+    <None Remove="Other\Themes\Telerik.windows.controls.RibbonView.xaml" />
+    <None Remove="Other\Themes\Windows.Control.xaml" />
+    <None Remove="Samples\Broken\Broken.xaml" />
+    <None Remove="Samples\InProgress\RadComboBox\RadComboBox_Demo.xaml" />
+    <None Remove="Samples\InProgress\RadDocking\RadDocking_Demo.xaml" />
+    <None Remove="Samples\Supported\RadDockPanel\RadDockPanel_Demo.xaml" />
+    <None Remove="Samples\InProgress\RadMenu\RadMenu_Demo.xaml" />
+    <None Remove="Samples\InProgress\RadRibbonView\RadRibbonView_Demo.xaml" />
+    <None Remove="Samples\Broken\RadSplitButton\RadSplitButton_Demo.xaml" />
+    <None Remove="Samples\Broken\RadTabControl\RadTabControl_Demo.xaml" />
+    <None Remove="Samples\Broken\RadToggleSwitchButton\RadToggleSwitchButton_Demo.xaml" />
+    <None Remove="Samples\InProgress\GroupBox\GroupBox_Demo.xaml" />
+    <None Remove="Samples\InProgress\InProgress.xaml" />
+    <None Remove="Samples\InProgress\RadBusyIndicator\RadBusyIndicator_Demo.xaml" />
+    <None Remove="Samples\InProgress\RadDropDownButton\RadDropDownButton_Demo.xaml" />
+    <None Remove="Samples\InProgress\RadProgressBar\RadProgressBar_Demo.xaml" />
+    <None Remove="Samples\InProgress\RadSlider\RadSlider_Demo.xaml" />
+    <None Remove="Samples\InProgress\RadTickBar\RadTickBar_Demo.xaml" />
+    <None Remove="Samples\InProgress\RadTransitionControl\RadTransitionControl_Demo.xaml" />
+    <None Remove="Samples\InProgress\RadWatermarkTextBox\RadWatermarkTextBox_Demo.xaml" />
+    <None Remove="Samples\Supported\Label\Label_Demo.xaml" />
+    <None Remove="Samples\Supported\RadButton\RadButton_Demo.xaml" />
+    <None Remove="Samples\Supported\RadExpander\RadExpander_Demo.xaml" />
+    <None Remove="Samples\Supported\RadPathButton\RadPathButton_Demo.xaml" />
+    <None Remove="Samples\Supported\RadRadioButton\RadRadioButton_Demo.xaml" />
+    <None Remove="Samples\Supported\RadToggleButton\RadToggleButton_Demo.xaml" />
+    <None Remove="Samples\InProgress\RadWindow\RadWindow_demo.xaml" />
+    <None Remove="Samples\Supported\Supported.xaml" />
+    <None Remove="Samples\Welcome.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Other\Styles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Other\Themes\Brushes.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Other\Themes\FontFamily.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Other\Themes\ProgressBar_style.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Other\Themes\System.Windows.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Other\Themes\Telerik.Windows.Controls.Docking.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Other\Themes\Telerik.Windows.Controls.GridView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Other\Themes\Telerik.Windows.Controls.Input.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Other\Themes\Telerik.Windows.Controls.Navigation.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Other\Themes\Telerik.windows.controls.RibbonView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Other\Themes\Windows.Control.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\Broken\Broken.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\InProgress\RadComboBox\RadComboBox_Demo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\InProgress\RadDocking\RadDocking_Demo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\Supported\RadDockPanel\RadDockPanel_Demo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\InProgress\RadMenu\RadMenu_Demo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\InProgress\RadRibbonView\RadRibbonView_Demo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\Broken\RadSplitButton\RadSplitButton_Demo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\Broken\RadTabControl\RadTabControl_Demo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\Broken\RadToggleSwitchButton\RadToggleSwitchButton_Demo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\InProgress\GroupBox\GroupBox_Demo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\InProgress\InProgress.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\InProgress\RadBusyIndicator\RadBusyIndicator_Demo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\InProgress\RadDropDownButton\RadDropDownButton_Demo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\InProgress\RadProgressBar\RadProgressBar_Demo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\InProgress\RadSlider\RadSlider_Demo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\InProgress\RadTickBar\RadTickBar_Demo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\InProgress\RadTransitionControl\RadTransitionControl_Demo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\InProgress\RadWatermarkTextBox\RadWatermarkTextBox_Demo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\Supported\Label\Label_Demo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\Supported\RadButton\RadButton_Demo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\Supported\RadExpander\RadExpander_Demo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\Supported\RadPathButton\RadPathButton_Demo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\Supported\RadRadioButton\RadRadioButton_Demo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\Supported\RadToggleButton\RadToggleButton_Demo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\InProgress\RadWindow\RadWindow_demo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\Supported\Supported.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\Welcome.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Page Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenSilver.Compatibility.TelerikUI" Version="0.1.0-alpha-001" />
+    <PackageReference Include="OpenSilver.WorkInProgress" Version="1.0.0-alpha-006" />
+  </ItemGroup>
+
+  <ItemGroup>  
+    <PackageReference Include="OpenSilver.Compatibility.TelerikUI" Version="0.1.0-alpha-001" />
+    <!--<Reference Include="G:\Document\Userware\GemDat\Libs\Telerik\Telerik.Windows.Controls.dll" />
+    <Reference Include="G:\Document\Userware\GemDat\Libs\Telerik\Telerik.Windows.Data.dll" />
+    <Reference Include="G:\Document\Userware\GemDat\Libs\Telerik\Telerik.Windows.Controls.Docking.dll" />
+    <Reference Include="G:\Document\Userware\GemDat\Libs\Telerik\Telerik.Windows.Controls.GridView.dll" />
+    <Reference Include="G:\Document\Userware\GemDat\Libs\Telerik\Telerik.Windows.Controls.Input.dll" />
+    <Reference Include="G:\Document\Userware\GemDat\Libs\Telerik\Telerik.Windows.Controls.Navigation.dll" />
+    <Reference Include="G:\Document\Userware\GemDat\Libs\Telerik\Telerik.Windows.Controls.RibbonView.dll" />-->
+  </ItemGroup>
+
+</Project>

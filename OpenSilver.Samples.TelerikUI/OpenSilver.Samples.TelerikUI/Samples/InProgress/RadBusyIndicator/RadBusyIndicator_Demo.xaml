@@ -1,0 +1,25 @@
+﻿<UserControl
+    x:Class="OpenSilver.Samples.TelerikUI.RadBusyIndicator_Demo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:OpenSilver.Samples.TelerikUI"
+    xmlns:controls="using:Telerik.Windows.Controls">
+
+    <ContentControl Style="{StaticResource Card_Style}" Height="210" Width="180">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <ContentControl Content="Rad Busy Indicator" Foreground="#FFD59851" Background="#FFBFA383" Style="{StaticResource HeaderControl_Style}"/>
+            <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <!--<controls:RadBusyIndicator Content="Busy Indicator"  x:Name="BusyIndicatorRad" Canvas.Top="25" Canvas.Left="140" IsBusy="True" DisplayAfter="10">
+                    <controls:RadButton Content="Indicator"/>
+                </controls:RadBusyIndicator>-->
+            </StackPanel>
+
+            <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FF6F7DFF" Style="{StaticResource ButtonViewSource_Style}"/>
+        </Grid>
+    </ContentControl>
+</UserControl>
