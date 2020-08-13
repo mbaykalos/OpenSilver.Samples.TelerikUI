@@ -21,7 +21,19 @@ namespace OpenSilver.Samples.TelerikUI
 
         private void ButtonViewSource_Click(object sender, RoutedEventArgs e)
         {
-
+            ViewSourceButtonHelper.ViewSource(new List<ViewSourceButtonInfo>()
+            {
+                new ViewSourceButtonInfo()
+                {
+                    TabHeader = "RadTickBar_Demo.xaml",
+                    FilePathOnGitHub = "github.com/OpenSilver/OpenSilver.Samples.TelerikUI/blob/master/OpenSilver.Samples.TelerikUI/OpenSilver.Samples.TelerikUI/Samples/InProgress/RadTickBar/RadTickBar_Demo.xaml"
+                },
+                new ViewSourceButtonInfo()
+                {
+                     TabHeader = "RadTickBar_Demo.xaml.cs",
+                     FilePathOnGitHub = "github.com/OpenSilver/OpenSilver.Samples.TelerikUI/blob/master/OpenSilver.Samples.TelerikUI/OpenSilver.Samples.TelerikUI/Samples/InProgress/RadTickBar/RadTickBar_Demo.xaml.cs"
+                }
+            });
         }
     }
 }

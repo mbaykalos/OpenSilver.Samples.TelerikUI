@@ -10,7 +10,7 @@
                 <ResourceDictionary Source="Other/Themes/ProgressBar_style.xaml"/>
                 <ResourceDictionary Source="Other/Themes/Windows.Control.xaml"/>
                 <ResourceDictionary Source="Other/Themes/Telerik.windows.controls.RibbonView.xaml"/>
-                <!--<ResourceDictionary Source="Other/Themes/Telerik.Windows.Controls.Navigation.xaml"/>-->
+                <ResourceDictionary Source="Other/Themes/Telerik.Windows.Controls.Navigation.xaml"/>
                 <ResourceDictionary Source="Other/Themes/Telerik.Windows.Controls.Docking.xaml"/>
                 <ResourceDictionary Source="Other/Themes/Telerik.Windows.Controls.GridView.xaml"/>
                 <ResourceDictionary Source="Other/Themes/Telerik.Windows.Controls.Input.xaml"/>
