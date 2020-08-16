@@ -149,7 +149,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="Button" BasedOn="{StaticResource ButtonStyle}"/>
+    <!--<Style TargetType="Button" BasedOn="{StaticResource ButtonStyle}"/>-->
     <Style x:Key="TextBoxStyle" TargetType="TextBox">
         <Setter Property="BorderBrush" Value="{StaticResource BasicBrush}"/>
         <Setter Property="Background" Value="{StaticResource MainBrush}"/>
