@@ -39,6 +39,7 @@
     <None Remove="Samples\Broken\Broken.xaml" />
     <None Remove="Samples\InProgress\RadComboBox\RadComboBox_Demo.xaml" />
     <None Remove="Samples\InProgress\RadDocking\RadDocking_Demo.xaml" />
+    <None Remove="Samples\InProgress\RadGridView\RadGridView_Demo.xaml" />
     <None Remove="Samples\Supported\RadDockPanel\RadDockPanel_Demo.xaml" />
     <None Remove="Samples\InProgress\RadMenu\RadMenu_Demo.xaml" />
     <None Remove="Samples\InProgress\RadRibbonView\RadRibbonView_Demo.xaml" />
@@ -104,6 +105,9 @@
       <Generator>MSBuild:Compile</Generator>
     </Content>
     <Content Include="Samples\Broken\Broken.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\InProgress\RadGridView\RadGridView_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
     <Content Include="Samples\InProgress\RadComboBox\RadComboBox_Demo.xaml">
