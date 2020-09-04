@@ -23,6 +23,7 @@
   </PropertyGroup>
   
   <ItemGroup>
+    <None Remove="cshtml5.extensions.kendoui.grid\scripts\jquery.min.js" />
     <None Remove="EmptyOpenSilverMigrationApplication.csproj.vspscc" />
     <None Remove="MyTemplate_rename_me_after_export.vstemplate" />
     <None Remove="Other\Styles.xaml" />
@@ -64,9 +65,19 @@
     <None Remove="Samples\InProgress\RadWindow\RadWindow_demo.xaml" />
     <None Remove="Samples\Supported\Supported.xaml" />
     <None Remove="Samples\Welcome.xaml" />
+    <None Remove="Third_Party_Resources\Telerik_KendoUI\scripts\kendo.all.min.js" />
+    <None Remove="Third_Party_Resources\Telerik_KendoUI\styles\images\kendoui.ttf" />
+    <None Remove="Third_Party_Resources\Telerik_KendoUI\styles\images\kendoui.woff" />
+    <None Remove="Third_Party_Resources\Telerik_KendoUI\styles\kendo.common-material.min.css" />
+    <None Remove="Third_Party_Resources\Telerik_KendoUI\styles\kendo.material.min.css" />
+    <None Remove="Third_Party_Resources\Telerik_KendoUI\styles\kendo.material.mobile.min.css" />
+    <None Remove="Third_Party_Resources\Telerik_KendoUI\styles\kendo.rtl.min.css" />
+    <None Remove="Third_Party_Resources\Telerik_KendoUI\styles\Material\loading-image.gif" />
+    <None Remove="Third_Party_Resources\Telerik_KendoUI\styles\Material\sprite.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="cshtml5.extensions.kendoui.grid\scripts\jquery.min.js" />
     <Content Include="MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -87,9 +98,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Content>
     <Content Include="Other\Themes\Telerik.Windows.Controls.Docking.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Content>
-    <Content Include="Other\Themes\Telerik.Windows.Controls.GridView.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
     <Content Include="Other\Themes\Telerik.Windows.Controls.Input.xaml">
@@ -188,6 +196,15 @@
     <Content Include="Samples\Welcome.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
+    <Content Include="Third_Party_Resources\Telerik_KendoUI\scripts\kendo.all.min.js" />
+    <Content Include="Third_Party_Resources\Telerik_KendoUI\styles\images\kendoui.ttf" />
+    <Content Include="Third_Party_Resources\Telerik_KendoUI\styles\images\kendoui.woff" />
+    <Content Include="Third_Party_Resources\Telerik_KendoUI\styles\kendo.common-material.min.css" />
+    <Content Include="Third_Party_Resources\Telerik_KendoUI\styles\kendo.material.min.css" />
+    <Content Include="Third_Party_Resources\Telerik_KendoUI\styles\kendo.material.mobile.min.css" />
+    <Content Include="Third_Party_Resources\Telerik_KendoUI\styles\kendo.rtl.min.css" />
+    <Content Include="Third_Party_Resources\Telerik_KendoUI\styles\Material\loading-image.gif" />
+    <Content Include="Third_Party_Resources\Telerik_KendoUI\styles\Material\sprite.png" />
     <Page Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -206,17 +223,6 @@
   <ItemGroup>
     <PackageReference Include="OpenSilver.Compatibility.TelerikUI" Version="0.1.0-alpha-001" />
     <PackageReference Include="OpenSilver.WorkInProgress" Version="1.0.0-alpha-006" />
-  </ItemGroup>
-
-  <ItemGroup>  
-    <PackageReference Include="OpenSilver.Compatibility.TelerikUI" Version="0.1.0-alpha-001" />
-    <!--<Reference Include="G:\Document\Userware\GemDat\Libs\Telerik\Telerik.Windows.Controls.dll" />
-    <Reference Include="G:\Document\Userware\GemDat\Libs\Telerik\Telerik.Windows.Data.dll" />
-    <Reference Include="G:\Document\Userware\GemDat\Libs\Telerik\Telerik.Windows.Controls.Docking.dll" />
-    <Reference Include="G:\Document\Userware\GemDat\Libs\Telerik\Telerik.Windows.Controls.GridView.dll" />
-    <Reference Include="G:\Document\Userware\GemDat\Libs\Telerik\Telerik.Windows.Controls.Input.dll" />
-    <Reference Include="G:\Document\Userware\GemDat\Libs\Telerik\Telerik.Windows.Controls.Navigation.dll" />
-    <Reference Include="G:\Document\Userware\GemDat\Libs\Telerik\Telerik.Windows.Controls.RibbonView.dll" />-->
   </ItemGroup>
 
 </Project>

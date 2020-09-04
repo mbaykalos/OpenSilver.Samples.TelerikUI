@@ -13,7 +13,7 @@
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
             <ContentControl Content="RadGridView" Foreground="#FFD59851" Background="#FFBFA383" Style="{StaticResource HeaderControl_Style}"/>
-            <!--<controls:RadGridView x:Name="RadGridView1" Grid.Row="1" Width="400" Height="400" HorizontalAlignment="Center" VerticalAlignment="Center"/>-->
+            <controls:RadGridView x:Name="RadGridView1" Grid.Row="1" Width="400" Height="400" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FF6F7DFF" Style="{StaticResource ButtonViewSource_Style}"/>
         </Grid>
     </ContentControl>

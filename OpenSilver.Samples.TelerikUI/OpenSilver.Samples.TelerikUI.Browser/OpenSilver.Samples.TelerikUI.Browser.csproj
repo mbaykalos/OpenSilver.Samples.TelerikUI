@@ -69,5 +69,8 @@
   <ItemGroup>
     <ProjectReference Include="..\OpenSilver.Samples.TelerikUI\OpenSilver.Samples.TelerikUI.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\resources\OpenSilver.Samples.TelerikUI\" />
+  </ItemGroup>
 
 </Project>
