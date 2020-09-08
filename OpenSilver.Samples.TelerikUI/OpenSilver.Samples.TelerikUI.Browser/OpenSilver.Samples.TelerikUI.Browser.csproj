@@ -5,6 +5,8 @@
     <SccAuxPath>SAK</SccAuxPath>
     <SccLocalPath>SAK</SccLocalPath>
     <Configurations>Debug;Release;</Configurations>
+    <NoXamlPreprocessor>True</NoXamlPreprocessor>
+    <OpenSilverType>2</OpenSilverType>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -29,7 +31,7 @@
 
   <!-- Blazor Part -->
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <RazorLangVersion>3.0</RazorLangVersion>
   </PropertyGroup>
 
@@ -64,13 +66,13 @@
     <None Remove="EmptyOpenSilverMigrationApplication.Browser.csproj.vspscc" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="OpenSilver.WorkInProgress" Version="1.0.0-alpha-006" />
+    <PackageReference Include="OpenSilver.WorkInProgress" Version="1.0.0-alpha-008" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="3.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Build" Version="3.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="3.2.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OpenSilver.Samples.TelerikUI\OpenSilver.Samples.TelerikUI.csproj" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="wwwroot\resources\OpenSilver.Samples.TelerikUI\" />
   </ItemGroup>
 
 </Project>
