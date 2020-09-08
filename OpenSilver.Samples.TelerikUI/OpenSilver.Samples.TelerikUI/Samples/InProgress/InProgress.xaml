@@ -19,7 +19,6 @@
             <local:RadDocking_Demo HorizontalAlignment="Center"/>
             <local:RadMenu_Demo HorizontalAlignment="Center"/>
             <local:RadRibbonView_Demo HorizontalAlignment="Center"/>
-            <local:RadGridView_Demo HorizontalAlignment="Center"/>
         </local:MasonryPanelWithProgressiveLoading>
     </StackPanel>
 </UserControl>

@@ -339,3 +339,5 @@ VersionAssemblyInfo*.cs
 Binaries
 /Controls/RichTextBox/obj_design
 /OpenSilverDemo/OpenSilverDemo.Browser/wwwroot
+/OpenSilver.Samples.TelerikUI/OpenSilver.Samples.TelerikUI/Libs
+/OpenSilver.Samples.TelerikUI/OpenSilver.Samples.TelerikUI.Browser/wwwroot/resources

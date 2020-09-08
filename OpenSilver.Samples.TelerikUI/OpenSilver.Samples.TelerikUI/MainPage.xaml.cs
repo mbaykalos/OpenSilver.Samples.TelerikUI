@@ -21,12 +21,13 @@ namespace OpenSilver.Samples.TelerikUI
             this.Loaded += MainPage_Loaded;
             Window.Current.SizeChanged += Window_SizeChanged;
 
-            //Note: Below is an example of setting the location for the required scripts and css for the KendoUI Grid control. See the tutorial at http://cshtml5.com for more information.
-            CSHTML5.Extensions.KendoUI.Grid.Configuration.LocationOfKendoAllJS = "ms-appx:///OpenSilver.Samples.TelerikUI/Third_Party_Resources/Telerik_KendoUI/scripts/kendo.all.min.js";
-            CSHTML5.Extensions.KendoUI.Grid.Configuration.LocationOfKendoCommonMaterialCSS = "ms-appx:///OpenSilver.Samples.TelerikUI/Third_Party_Resources/Telerik_KendoUI/styles/kendo.common-material.min.css";
-            CSHTML5.Extensions.KendoUI.Grid.Configuration.LocationOfKendoMaterialCSS = "ms-appx:///OpenSilver.Samples.TelerikUI/Third_Party_Resources/Telerik_KendoUI/styles/kendo.material.min.css";
-            CSHTML5.Extensions.KendoUI.Grid.Configuration.LocationOfKendoMaterialMobileCSS = "ms-appx:///OpenSilver.Samples.TelerikUI/Third_Party_Resources/Telerik_KendoUI/styles/kendo.material.mobile.min.css";
-            CSHTML5.Extensions.KendoUI.Grid.Configuration.LocationOfKendoRTLCSS = "ms-appx:///OpenSilver.Samples.TelerikUI/Third_Party_Resources/Telerik_KendoUI/styles/kendo.rtl.min.css";
+            //Note: Below is an example of setting the location for the required scripts and css for the KendoUI Grid control:
+            CSHTML5.Extensions.KendoUI.Grid.Configuration.LocationOfJQueryJS = "ms-appx:///OpenSilver.Samples.TelerikUI/Libs/KendoUI/scripts/jquery.min.js";
+            CSHTML5.Extensions.KendoUI.Grid.Configuration.LocationOfKendoAllJS = "ms-appx:///OpenSilver.Samples.TelerikUI/Libs/KendoUI/scripts/kendo.all.min.js";
+            CSHTML5.Extensions.KendoUI.Grid.Configuration.LocationOfKendoCommonMaterialCSS = "ms-appx:///OpenSilver.Samples.TelerikUI/Libs/KendoUI/styles/kendo.common-material.min.css";
+            CSHTML5.Extensions.KendoUI.Grid.Configuration.LocationOfKendoMaterialCSS = "ms-appx:///OpenSilver.Samples.TelerikUI/Libs/KendoUI/styles/kendo.material.min.css";
+            CSHTML5.Extensions.KendoUI.Grid.Configuration.LocationOfKendoMaterialMobileCSS = "ms-appx:///OpenSilver.Samples.TelerikUI/Libs/KendoUI/styles/kendo.material.mobile.min.css";
+            CSHTML5.Extensions.KendoUI.Grid.Configuration.LocationOfKendoRTLCSS = "ms-appx:///OpenSilver.Samples.TelerikUI/Libs/KendoUI/styles/kendo.rtl.min.css";
 
         }
 
@@ -46,6 +47,11 @@ namespace OpenSilver.Samples.TelerikUI
         void Supported_Click(object sender, RoutedEventArgs e)
         {
             NavigateToPage("/Supported");
+        }
+
+        void SupportedViaKendoUI_Click(object sender, RoutedEventArgs e)
+        {
+            NavigateToPage("/SupportedViaKendoUI");
         }
 
         void Inprogress_Click(object sender, RoutedEventArgs e)

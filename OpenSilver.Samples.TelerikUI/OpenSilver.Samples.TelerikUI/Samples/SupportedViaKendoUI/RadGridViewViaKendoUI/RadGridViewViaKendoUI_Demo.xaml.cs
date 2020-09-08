@@ -13,9 +13,9 @@ using Telerik.Windows.Controls;
 
 namespace OpenSilver.Samples.TelerikUI
 {
-    public partial class RadGridView_Demo : UserControl
+    public partial class RadGridViewViaKendoUI_Demo : UserControl
     {
-        public RadGridView_Demo()
+        public RadGridViewViaKendoUI_Demo()
         {
             this.InitializeComponent();
             this.Loaded += RadGridView_Demo_Loaded;
@@ -34,17 +34,17 @@ namespace OpenSilver.Samples.TelerikUI
                 new ViewSourceButtonInfo()
                 {
                     TabHeader = "RadGridView_Demo.xaml",
-                    FilePathOnGitHub = "github.com/OpenSilver/OpenSilver.Samples.TelerikUI/blob/master/OpenSilver.Samples.TelerikUI/OpenSilver.Samples.TelerikUI/Samples/InProgress/RadGridView/RadGridView_Demo.xaml"
+                    FilePathOnGitHub = "github.com/OpenSilver/OpenSilver.Samples.TelerikUI/blob/master/OpenSilver.Samples.TelerikUI/OpenSilver.Samples.TelerikUI/Samples/SupportedViaKendoUI/RadGridViewViaKendoUI/RadGridViewViaKendoUI_Demo.xaml"
                 },
                 new ViewSourceButtonInfo()
                 {
                      TabHeader = "RadGridView_Demo.xaml.cs",
-                     FilePathOnGitHub = "github.com/OpenSilver/OpenSilver.Samples.TelerikUI/blob/master/OpenSilver.Samples.TelerikUI/OpenSilver.Samples.TelerikUI/Samples/InProgress/RadGridView/RadGridView_Demo.xaml.cs"
+                     FilePathOnGitHub = "github.com/OpenSilver/OpenSilver.Samples.TelerikUI/blob/master/OpenSilver.Samples.TelerikUI/OpenSilver.Samples.TelerikUI/Samples/SupportedViaKendoUI/RadGridViewViaKendoUI/RadGridViewViaKendoUI_Demo.xaml.cs"
                 },
                 new ViewSourceButtonInfo()
                 {
                      TabHeader = "Planets.cs",
-                     FilePathOnGitHub = "github.com/OpenSilver/OpenSilver.Samples.TelerikUI/blob/master/OpenSilver.Samples.TelerikUI/OpenSilver.Samples.TelerikUI/Samples/InProgress/RadGridView/Planets.cs"
+                     FilePathOnGitHub = "github.com/OpenSilver/OpenSilver.Samples.TelerikUI/blob/master/OpenSilver.Samples.TelerikUI/OpenSilver.Samples.TelerikUI/Other/Planets.cs"
                 }
             });
         }

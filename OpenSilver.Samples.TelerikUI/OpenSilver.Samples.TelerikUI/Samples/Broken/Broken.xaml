@@ -11,6 +11,7 @@
             <local:RadSplitButton_Demo HorizontalAlignment="Center"/>
             <local:RadTabControl_Demo HorizontalAlignment="Center"/>
             <local:RadToggleSwitchButton_Demo HorizontalAlignment="Center"/>
+            <local:RadGridView_Demo HorizontalAlignment="Center"/>
         </local:MasonryPanelWithProgressiveLoading>
     </StackPanel>
 </UserControl>
