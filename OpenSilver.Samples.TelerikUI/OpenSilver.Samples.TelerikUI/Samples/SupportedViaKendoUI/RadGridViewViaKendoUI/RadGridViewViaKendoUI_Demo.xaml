@@ -13,7 +13,13 @@
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
             <ContentControl Content="RadGridView via KendoUI" Foreground="#FFD59851" Background="#FFBFA383" Style="{StaticResource HeaderControl_Style}"/>
-            <kendo:RadGridView x:Name="RadGridView1" Grid.Row="1" Width="400" Height="400" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+          <kendo:RadGridView x:Name="RadGridView1" Grid.Row="1" Width="400" Height="400" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <kendo:RadGridView.Columns>
+              <kendo:GridViewDataColumn Header="Planet Name" DataMemberBinding="{Binding Radius, Mode=OneWay, FallbackValue=N/A}"/>
+              <kendo:GridViewDataColumn Header="Rotation Period" DataMemberBinding="{Binding RotationPeriod, Mode=OneWay, FallbackValue=N/A}"/>
+              <kendo:GridViewDataColumn Header="Orbital Period" DataMemberBinding="{Binding OrbitalPeriod, Mode=OneWay, FallbackValue=N/A}"/>
+            </kendo:RadGridView.Columns>
+          </kendo:RadGridView>
             <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FF6F7DFF" Style="{StaticResource ButtonViewSource_Style}"/>
         </Grid>
     </ContentControl>

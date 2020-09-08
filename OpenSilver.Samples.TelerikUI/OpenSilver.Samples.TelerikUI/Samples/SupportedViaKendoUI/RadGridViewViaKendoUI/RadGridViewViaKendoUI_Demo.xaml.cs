@@ -24,7 +24,7 @@ namespace OpenSilver.Samples.TelerikUI
         private void RadGridView_Demo_Loaded(object sender, RoutedEventArgs e)
         {
             RadGridView1.ItemsSource = Planet.GetListOfPlanets();
-            RadGridView1.AutoGenerateColumns = true;
+            //RadGridView1.AutoGenerateColumns = true;
         }
 
         private void ButtonViewSource_Click(object sender, RoutedEventArgs e)
