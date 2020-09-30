@@ -1,0 +1,42 @@
+﻿<UserControl
+    x:Class="OpenSilver.Samples.TelerikUI.FluidContentControl_Demo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:OpenSilver.Samples.TelerikUI"
+    xmlns:controls="using:Telerik.Windows.Controls"
+    xmlns:compatibility="clr-namespace:OpenSilver.Compatibility.TelerikUI;assembly=Telerik.Windows.Controls">
+
+    <ContentControl Style="{StaticResource Card_Style}" Height="400" Width="300">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <ContentControl Content="FluidContent Control" Foreground="#FF8316F3" Background="#FFDCA59C" Style="{StaticResource HeaderControl_Style}"/>
+            <StackPanel Grid.Row="1">
+                <Button Content="Switch size" Click="Button_Click"/>
+                <Border x:Name="FluidContentControlContainer" Grid.Row="1" Width="70" Height="70">
+                    <controls:RadFluidContentControl State="Small"
+                                                     NormalToSmallThreshold="100,100"
+                                                     NormalToLargeThreshold="100,100">
+                        <controls:RadFluidContentControl.SmallContent>
+                            <Border Background="Red" Width="50" Height="50"/>
+                        </controls:RadFluidContentControl.SmallContent>
+                        <controls:RadFluidContentControl.LargeContent>
+                            <Border Background="Yellow" Width="500" Height="500"/>
+                        </controls:RadFluidContentControl.LargeContent>
+                    </controls:RadFluidContentControl>
+                </Border>
+                <compatibility:RadFluidContentControl State="Small" ContentChangeMode="Manual">
+                    <compatibility:RadFluidContentControl.SmallContent>
+                        <Border Background="Red" Width="50" Height="50"/>
+                    </compatibility:RadFluidContentControl.SmallContent>
+                    <compatibility:RadFluidContentControl.LargeContent>
+                        <Border Background="Yellow" Width="500" Height="500"/>
+                    </compatibility:RadFluidContentControl.LargeContent>
+                </compatibility:RadFluidContentControl>
+            </StackPanel>
+        </Grid>
+    </ContentControl>
+</UserControl>

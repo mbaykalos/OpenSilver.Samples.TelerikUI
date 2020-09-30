@@ -37,6 +37,7 @@
     <None Remove="Other\Themes\Telerik.windows.controls.RibbonView.xaml" />
     <None Remove="Other\Themes\Windows.Control.xaml" />
     <None Remove="Samples\Broken\Broken.xaml" />
+    <None Remove="Samples\Broken\FluidContentControl\FluidContentControl_Demo.xaml" />
     <None Remove="Samples\Broken\RadTileView\RadTileView_Demo.xaml" />
     <None Remove="Samples\InProgress\RadComboBox\RadComboBox_Demo.xaml" />
     <None Remove="Samples\InProgress\RadDocking\RadDocking_Demo.xaml" />
@@ -117,6 +118,9 @@
       <Generator>MSBuild:Compile</Generator>
     </Content>
     <Content Include="Samples\Broken\Broken.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Samples\Broken\FluidContentControl\FluidContentControl_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
     <Content Include="Samples\Broken\RadGridView\RadGridView_Demo.xaml">
