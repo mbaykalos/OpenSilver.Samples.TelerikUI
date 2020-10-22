@@ -2019,5 +2019,5 @@
         <Setter Property="Background" Value="{StaticResource MainBrush}"/>
     </Style>
 
-    <Style TargetType="local:RadDocking" BasedOn="{StaticResource RadDockingStyle}"/>
+    <!--<Style TargetType="local:RadDocking" BasedOn="{StaticResource RadDockingStyle}"/>-->
 </ResourceDictionary>

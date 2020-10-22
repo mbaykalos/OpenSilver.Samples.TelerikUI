@@ -5464,7 +5464,7 @@
     </Style>
     <Style TargetType="telerik1:QuickAccessToolBar" BasedOn="{StaticResource QuickAccessToolBarStyle}"/>
     <Style TargetType="telerikRibbonViewPrimitives:WindowTitle" BasedOn="{StaticResource WindowTitleStyle}"/>
-    <Style TargetType="telerik1:RadRibbonView" BasedOn="{StaticResource RadRibbonViewStyle}"/>
+    <!--<Style TargetType="telerik1:RadRibbonView" BasedOn="{StaticResource RadRibbonViewStyle}"/>-->
     <Style TargetType="telerik1:RadRibbonContextualGroup" BasedOn="{StaticResource ContextualGroupsStyle}"/>
     <Style x:Key="RibbonWindow_TitleStyle" TargetType="telerikRibbonViewPrimitives:WindowTitle">
         <Setter Property="IsTabStop" Value="False"/>

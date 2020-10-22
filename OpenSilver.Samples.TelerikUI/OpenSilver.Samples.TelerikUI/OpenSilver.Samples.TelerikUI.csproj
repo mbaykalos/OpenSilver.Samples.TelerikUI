@@ -243,4 +243,10 @@
     <PackageReference Include="OpenSilver.WorkInProgress" Version="1.0.0-alpha-008" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Telerik.Windows.Themes.Windows8">
+      <HintPath>..\..\..\TelerikForOpenSilver\Themes\Windows8\Windows8_OS\bin\Debug\netstandard2.0\Telerik.Windows.Themes.Windows8.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

@@ -4528,11 +4528,11 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="telerikNavigation:RadMenuItem" BasedOn="{StaticResource RadMenuItemStyle}"/>
+    <!--<Style TargetType="telerikNavigation:RadMenuItem" BasedOn="{StaticResource RadMenuItemStyle}"/>
     <Style TargetType="telerikNavigation:RadMenuGroupItem" BasedOn="{StaticResource RadMenuGroupItemStyle}"/>
     <Style TargetType="telerikNavigation:RadMenuSeparatorItem" BasedOn="{StaticResource RadMenuSeparatorItemStyle}"/>
     <Style TargetType="telerikNavigation:RadMenu" BasedOn="{StaticResource RadMenuStyle}"/>
-    <Style TargetType="telerikNavigation:RadContextMenu" BasedOn="{StaticResource RadContextMenuStyle}"/>
+    <Style TargetType="telerikNavigation:RadContextMenu" BasedOn="{StaticResource RadContextMenuStyle}"/>-->
     <Style x:Key="RadialMenuButtonStyle" TargetType="telerikRadialMenu:RadialMenuButton">
         <Setter Property="BorderThickness" Value="2"/>
         <Setter Property="BorderBrush" Value="{StaticResource BasicBrush}"/>
@@ -5529,7 +5529,7 @@
         </Setter>
     </Style>
     <Style TargetType="telerikNavigation:RadAlert" BasedOn="{StaticResource RadAlertStyle}"/>
-    <Style TargetType="telerikNavigation:RadWindow" BasedOn="{StaticResource RadWindowStyle}"/>
+    <!--<Style TargetType="telerikNavigation:RadWindow" BasedOn="{StaticResource RadWindowStyle}"/>-->
     <localization:CultureToLocalizationStringConverter x:Key="cultureToStringConverter"/>
     <telerik:LocalizationManager x:Key="localizationManagerProvider"/>
     <Style TargetType="treeView:TreeViewDragVisual" x:Key="TreeViewDragVisualStyle">

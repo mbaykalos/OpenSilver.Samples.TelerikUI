@@ -2380,8 +2380,8 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="telerikInput:RadComboBoxItem" BasedOn="{StaticResource RadComboBoxItemStyle}"/>
-    <Style TargetType="telerikInput:RadComboBox" BasedOn="{StaticResource RadComboBoxStyle}"/>
+    <!--<Style TargetType="telerikInput:RadComboBoxItem" BasedOn="{StaticResource RadComboBoxItemStyle}"/>
+    <Style TargetType="telerikInput:RadComboBox" BasedOn="{StaticResource RadComboBoxStyle}"/>-->
     <ControlTemplate x:Key="IncreaseRepeatButtonControlTemplate" TargetType="RepeatButton">
         <Grid>
             <VisualStateManager.VisualStateGroups>

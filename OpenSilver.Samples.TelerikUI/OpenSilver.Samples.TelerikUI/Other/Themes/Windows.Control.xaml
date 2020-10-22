@@ -58,7 +58,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="controls:Label" BasedOn="{StaticResource LabelStyle}"/>
+    <!--<Style TargetType="controls:Label" BasedOn="{StaticResource LabelStyle}"/>-->
 
     <!--Group BOX-->
     <Style TargetType="controls:GroupBox" x:Key="GroupBoxStyle" >
@@ -567,7 +567,7 @@
             </Setter.Value>
         </Setter>-->
     </Style>
-    <Style TargetType="controls:RadExpander" BasedOn="{StaticResource RadExpanderStyle}"/>
+    <!--<Style TargetType="controls:RadExpander" BasedOn="{StaticResource RadExpanderStyle}"/>-->
 
 
     <!--LegendItemControlStyle & RadLegend Not Implemented-->
@@ -1351,8 +1351,8 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="controls:RadTickBar" BasedOn="{StaticResource RadTickBarStyle}"/>
-    <Style TargetType="controls:RadSlider" BasedOn="{StaticResource RadSliderStyle}"/>
+    <!--<Style TargetType="controls:RadTickBar" BasedOn="{StaticResource RadTickBarStyle}"/>-->
+    <!--<Style TargetType="controls:RadSlider" BasedOn="{StaticResource RadSliderStyle}"/>-->
 
     <!--RADBUTTON-->
     <Style x:Key="RadButtonStyle" TargetType="controls:RadButton">
@@ -1470,7 +1470,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="controls:RadButton" BasedOn="{StaticResource RadButtonStyle}"/>
+    <!--<Style TargetType="controls:RadButton" BasedOn="{StaticResource RadButtonStyle}"/>-->
 
 
     <!--RadPathButtonPathStyle-->
@@ -1738,7 +1738,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="controls:RadPathButton" BasedOn="{StaticResource RadPathButtonStyle}"/>
+    <!--<Style TargetType="controls:RadPathButton" BasedOn="{StaticResource RadPathButtonStyle}"/>-->
 
 
     <!--RadToggleButton-->
@@ -1890,7 +1890,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="controls:RadToggleButton" BasedOn="{StaticResource RadToggleButtonStyle}"/>
+    <!--<Style TargetType="controls:RadToggleButton" BasedOn="{StaticResource RadToggleButtonStyle}"/>-->
 
     <!--RadRadioButton-->
     <Style x:Key="RadRadioButtonStyle" TargetType="controls:RadRadioButton">
@@ -2076,7 +2076,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="controls:RadRadioButton" BasedOn="{StaticResource RadRadioButtonStyle}"/>
+    <!--<Style TargetType="controls:RadRadioButton" BasedOn="{StaticResource RadRadioButtonStyle}"/>-->
 
 
     <!--RadDropDownButton-->
@@ -2385,7 +2385,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="controls:RadDropDownButton" BasedOn="{StaticResource RadDropDownButtonStyle}"/>
+    <!--<Style TargetType="controls:RadDropDownButton" BasedOn="{StaticResource RadDropDownButtonStyle}"/>-->
 
 
     <!--RadSplitButtonToggleButtonStyle-->
@@ -2964,7 +2964,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="controls:RadTransitionControl" BasedOn="{StaticResource RadTransitionControlStyle}"/>
+    <!--<Style TargetType="controls:RadTransitionControl" BasedOn="{StaticResource RadTransitionControlStyle}"/>-->
 
 
     <!--BusyIndicatorProgressBarStyle-->
@@ -3308,7 +3308,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="controls:RadBusyIndicator" BasedOn="{StaticResource RadBusyIndicatorStyle}"/>
+    <!--<Style TargetType="controls:RadBusyIndicator" BasedOn="{StaticResource RadBusyIndicatorStyle}"/>-->
 
 
     <!--RadWatermarkTextBox-->
@@ -3492,7 +3492,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="controls:RadWatermarkTextBox" BasedOn="{StaticResource RadWatermarkTextBoxStyle}"/>
+    <!--<Style TargetType="controls:RadWatermarkTextBox" BasedOn="{StaticResource RadWatermarkTextBoxStyle}"/>-->
 
 
     <!--StringFilterEditorTemplate-->
