@@ -6,7 +6,7 @@
     <SccLocalPath>SAK</SccLocalPath>
     <Configurations>Debug;Release;</Configurations>
     <NoXamlPreprocessor>True</NoXamlPreprocessor>
-    <OpenSilverType>2</OpenSilverType>
+    <OpenSilverType>3</OpenSilverType>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -66,7 +66,7 @@
     <None Remove="EmptyOpenSilverMigrationApplication.Browser.csproj.vspscc" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="OpenSilver.WorkInProgress" Version="1.0.0-alpha-008" />
+    <PackageReference Include="OpenSilver.WorkInProgress" Version="1.0.0-alpha-019" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="3.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Build" Version="3.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="3.2.0" />

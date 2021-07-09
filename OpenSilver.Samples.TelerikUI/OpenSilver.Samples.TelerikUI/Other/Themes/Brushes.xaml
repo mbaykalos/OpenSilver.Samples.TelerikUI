@@ -10,7 +10,7 @@
     <SolidColorBrush x:Key="StrongBrush" Color="#000000"/>
     <SolidColorBrush x:Key="MarkerBrush" Color="#000000"/>
     <SolidColorBrush x:Key="ControlElement_Normal" Color="#FF000000" />
-    <SolidColorBrush x:Key="MainBrush" Color="##D2D1CC" />
+    <SolidColorBrush x:Key="MainBrush" Color="#FFD2D1CC" />
     <SolidColorBrush x:Key="ValidationBrush" Color="#FFE23907"/>
     <SolidColorBrush x:Key="DisabledBorderBrush" Color="#E6E6E6"/>
     <SolidColorBrush x:Key="OverlayBrush" Color="#FFFFFFFF" Opacity="0.6" />

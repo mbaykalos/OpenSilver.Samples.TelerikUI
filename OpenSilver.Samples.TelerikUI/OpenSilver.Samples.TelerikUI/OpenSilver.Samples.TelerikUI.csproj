@@ -233,7 +233,7 @@
 
   <ItemGroup>
     <PackageReference Include="OpenSilver.Compatibility.TelerikUI" Version="0.1.0-alpha-001" />
-    <PackageReference Include="OpenSilver.WorkInProgress" Version="1.0.0-alpha-008" />
+    <PackageReference Include="OpenSilver.WorkInProgress" Version="1.0.0-alpha-019" />
   </ItemGroup>
 
 </Project>
