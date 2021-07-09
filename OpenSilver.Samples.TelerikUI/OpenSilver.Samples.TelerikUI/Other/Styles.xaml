@@ -340,5 +340,5 @@
     <Style TargetType="StackPanel" x:Key="TestPanel">
         <Setter Property="Background" Value="#ff0000"/>
     </Style>
-    <Style TargetType="StackPanel" BasedOn="TestPanel"/>
+    <!--<Style TargetType="StackPanel" BasedOn="TestPanel"/>-->
 </ResourceDictionary>

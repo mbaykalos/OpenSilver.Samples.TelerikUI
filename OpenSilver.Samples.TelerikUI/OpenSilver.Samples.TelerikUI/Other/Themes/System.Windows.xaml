@@ -570,7 +570,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="CheckBox" BasedOn="{StaticResource CheckBoxStyle}"/>
+    <!--<Style TargetType="CheckBox" BasedOn="{StaticResource CheckBoxStyle}"/>-->
     <Style x:Key="TextBoxStyle" TargetType="TextBox">
         <Setter Property="BorderBrush" Value="{StaticResource BasicBrush}"/>
         <Setter Property="Background" Value="{StaticResource MainBrush}"/>
@@ -691,7 +691,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="TextBox" BasedOn="{StaticResource TextBoxStyle}"/>
+    <!--<Style TargetType="TextBox" BasedOn="{StaticResource TextBoxStyle}"/>-->
     <Style x:Key="RadioButtonStyle" TargetType="RadioButton">
         <Setter Property="Background" Value="{StaticResource MainBrush}"/>
         <Setter Property="BorderBrush" Value="{StaticResource BasicBrush}"/>
@@ -789,7 +789,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="RadioButton" BasedOn="{StaticResource RadioButtonStyle}"/>
+    <!--<Style TargetType="RadioButton" BasedOn="{StaticResource RadioButtonStyle}"/>-->
     <Style x:Key="ListBoxItemStyle" TargetType="ListBoxItem">
         <Setter Property="Background" Value="{StaticResource MainBrush}"/>
         <Setter Property="Foreground" Value="{StaticResource MarkerBrush}"/>
@@ -904,8 +904,8 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="ListBox" BasedOn="{StaticResource ListBoxStyle}"/>
-    <Style TargetType="ListBoxItem" BasedOn="{StaticResource ListBoxItemStyle}"/>
+    <!--<Style TargetType="ListBox" BasedOn="{StaticResource ListBoxStyle}"/>
+    <Style TargetType="ListBoxItem" BasedOn="{StaticResource ListBoxItemStyle}"/>-->
     <Style x:Key="PasswordBoxStyle" TargetType="PasswordBox">
         <Setter Property="BorderBrush" Value="{StaticResource BasicBrush}"/>
         <Setter Property="Background" Value="{StaticResource MainBrush}"/>
@@ -1009,7 +1009,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="PasswordBox" BasedOn="{StaticResource PasswordBoxStyle}"/>
+    <!--<Style TargetType="PasswordBox" BasedOn="{StaticResource PasswordBoxStyle}"/>-->
     <ControlTemplate x:Key="RepeatButton_Template" TargetType="RepeatButton">
         <Grid x:Name="root" Background="Transparent">
             <VisualStateManager.VisualStateGroups>
@@ -1111,7 +1111,7 @@
         <Setter Property="VerticalContentAlignment" Value="Center"/>
         <Setter Property="BorderThickness" Value="1"/>
     </Style>
-    <Style TargetType="RepeatButton" BasedOn="{StaticResource RepeatButtonStyle}"/>
+    <!--<Style TargetType="RepeatButton" BasedOn="{StaticResource RepeatButtonStyle}"/>-->
     <Style x:Key="ToolTipStyle" TargetType="ToolTip">
         <Setter Property="Background" Value="{StaticResource MainBrush}"/>
         <Setter Property="BorderBrush" Value="{StaticResource BasicBrush}"/>
@@ -1134,9 +1134,9 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="ToolTip" BasedOn="{StaticResource ToolTipStyle}"/>
+    <!--<Style TargetType="ToolTip" BasedOn="{StaticResource ToolTipStyle}"/>-->
     <Style x:Key="HyperlinkButtonStyle" TargetType="HyperlinkButton">
         <Setter Property="Foreground" Value="{StaticResource AccentBrush}"/>
     </Style>
-    <Style TargetType="HyperlinkButton" BasedOn="{StaticResource HyperlinkButtonStyle}"/>
+    <!--<Style TargetType="HyperlinkButton" BasedOn="{StaticResource HyperlinkButtonStyle}"/>-->
 </ResourceDictionary>

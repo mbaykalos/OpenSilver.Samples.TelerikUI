@@ -1551,12 +1551,12 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="telerik1:RadButton" BasedOn="{StaticResource RadButtonStyle}"/>
+    <!--<Style TargetType="telerik1:RadButton" BasedOn="{StaticResource RadButtonStyle}"/>
     <Style TargetType="telerik1:RadPathButton" BasedOn="{StaticResource RadPathButtonStyle}"/>
     <Style TargetType="telerik1:RadToggleButton" BasedOn="{StaticResource RadToggleButtonStyle}"/>
     <Style TargetType="telerik1:RadRadioButton" BasedOn="{StaticResource RadRadioButtonStyle}"/>
     <Style TargetType="telerik1:RadDropDownButton" BasedOn="{StaticResource RadDropDownButtonStyle}"/>
-    <Style TargetType="telerik1:RadSplitButton" BasedOn="{StaticResource RadSplitButtonStyle}"/>
+    <Style TargetType="telerik1:RadSplitButton" BasedOn="{StaticResource RadSplitButtonStyle}"/>-->
     <Thickness x:Key="RibbonGalleryHeaderBorderThickness">0 0 0 0</Thickness>
     <SolidColorBrush x:Key="RibbonGroupButtonBackgroundBrush" Color="Transparent"/>
     <SolidColorBrush x:Key="ContextualGroup_OpacityMask" Color="#4C000000"/>
@@ -1667,7 +1667,7 @@
         <Setter Property="VerticalContentAlignment" Value="Stretch"/>
         <Setter Property="UseLayoutRounding" Value="True"/>
     </Style>
-    <Style TargetType="telerik1:RadRibbonButton" BasedOn="{StaticResource RadRibbonButtonStyle}"/>
+    <!--<Style TargetType="telerik1:RadRibbonButton" BasedOn="{StaticResource RadRibbonButtonStyle}"/>-->
     <Style TargetType="telerik:RadToggleButton" x:Key="ToggleButtonStyle">
         <Setter Property="Background" Value="Transparent"/>
         <Setter Property="IsTabStop" Value="False"/>
@@ -2061,8 +2061,8 @@
         <Setter Property="Padding" Value="3 2"/>
         <Setter Property="MinHeight" Value="24"/>
     </Style>
-    <Style TargetType="telerik1:RadRibbonComboBoxItem" BasedOn="{StaticResource RadRibbonComboBoxItemStyle}"/>
-    <Style TargetType="telerik1:RadRibbonComboBox" BasedOn="{StaticResource RadRibbonComboBoxStyle}"/>
+    <!--<Style TargetType="telerik1:RadRibbonComboBoxItem" BasedOn="{StaticResource RadRibbonComboBoxItemStyle}"/>
+    <Style TargetType="telerik1:RadRibbonComboBox" BasedOn="{StaticResource RadRibbonComboBoxStyle}"/>-->
     <ControlTemplate x:Key="RadRibbonDropDownButtonTemplate" TargetType="telerik1:RadRibbonDropDownButton">
         <Grid>
             <VisualStateManager.VisualStateGroups>
@@ -2371,7 +2371,7 @@
         <Setter Property="Foreground" Value="{StaticResource StrongBrush}"/>
         <Setter Property="UseLayoutRounding" Value="True"/>
     </Style>
-    <Style TargetType="telerik1:RadRibbonDropDownButton" BasedOn="{StaticResource RadRibbonDropDownButtonStyle}"/>
+    <!--<Style TargetType="telerik1:RadRibbonDropDownButton" BasedOn="{StaticResource RadRibbonDropDownButtonStyle}"/>-->
     <ControlTemplate x:Key="RadRibbonRadioButtonTemplate" TargetType="telerik1:RadRibbonRadioButton">
         <Grid>
             <VisualStateManager.VisualStateGroups>
@@ -2493,7 +2493,7 @@
         <Setter Property="Foreground" Value="{StaticResource StrongBrush}"/>
         <Setter Property="Template" Value="{StaticResource RadRibbonRadioButtonTemplate}"/>
     </Style>
-    <Style TargetType="telerik1:RadRibbonRadioButton" BasedOn="{StaticResource RadRibbonRadioButtonStyle}"/>
+    <!--<Style TargetType="telerik1:RadRibbonRadioButton" BasedOn="{StaticResource RadRibbonRadioButtonStyle}"/>-->
     <ControlTemplate x:Key="RadRibbonSplitButtonTemplate" TargetType="telerik1:RadRibbonSplitButton">
         <Grid>
             <VisualStateManager.VisualStateGroups>
@@ -3016,7 +3016,7 @@
         <Setter Property="Foreground" Value="{StaticResource StrongBrush}"/>
         <Setter Property="Template" Value="{StaticResource RadRibbonSplitButtonTemplate}"/>
     </Style>
-    <Style TargetType="telerik1:RadRibbonSplitButton" BasedOn="{StaticResource RadRibbonSplitButtonStyle}"/>
+    <!--<Style TargetType="telerik1:RadRibbonSplitButton" BasedOn="{StaticResource RadRibbonSplitButtonStyle}"/>-->
     <ControlTemplate x:Key="RadRibbonToggleButtonTemplate" TargetType="telerik1:RadRibbonToggleButton">
         <Grid>
             <VisualStateManager.VisualStateGroups>
@@ -3138,7 +3138,7 @@
         <Setter Property="VerticalContentAlignment" Value="Stretch"/>
         <Setter Property="Template" Value="{StaticResource RadRibbonToggleButtonTemplate}"/>
     </Style>
-    <Style TargetType="telerik1:RadRibbonToggleButton" BasedOn="{StaticResource RadRibbonToggleButtonStyle}"/>
+    <!--<Style TargetType="telerik1:RadRibbonToggleButton" BasedOn="{StaticResource RadRibbonToggleButtonStyle}"/>-->
     <ControlTemplate x:Key="ApplicationDropDownButtonTemplate" TargetType="telerikRibbonViewPrimitives:RadRibbonApplicationDropDownButton">
         <Grid>
             <VisualStateManager.VisualStateGroups>
@@ -3207,7 +3207,7 @@
         <Setter Property="IsAutoSize" Value="False"/>
         <Setter Property="Template" Value="{StaticResource ApplicationDropDownButtonTemplate}"/>
     </Style>
-    <Style BasedOn="{StaticResource RadRibbonApplicationDropDownButtonStyle}" TargetType="telerikRibbonViewPrimitives:RadRibbonApplicationDropDownButton"/>
+    <!--<Style BasedOn="{StaticResource RadRibbonApplicationDropDownButtonStyle}" TargetType="telerikRibbonViewPrimitives:RadRibbonApplicationDropDownButton"/>-->
     <Style x:Key="RadGalleryStyle" TargetType="telerik1:RadGallery">
         <Setter Property="ItemWidth" Value="156"/>
         <Setter Property="ViewportWidth" Value="156"/>
@@ -3229,7 +3229,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="telerik1:RadGallery" BasedOn="{StaticResource RadGalleryStyle}"/>
+    <!--<Style TargetType="telerik1:RadGallery" BasedOn="{StaticResource RadGalleryStyle}"/>-->
     <ControlTemplate x:Key="RadGalleryItemTemplate" TargetType="telerik1:RadGalleryItem">
         <Grid>
             <VisualStateManager.VisualStateGroups>
@@ -3329,7 +3329,7 @@
         <Setter Property="BorderThickness" Value="5"/>
         <Setter Property="Padding" Value="2"/>
     </Style>
-    <Style TargetType="telerik1:RadGalleryItem" BasedOn="{StaticResource RadGalleryItemStyle}"/>
+    <!--<Style TargetType="telerik1:RadGalleryItem" BasedOn="{StaticResource RadGalleryItemStyle}"/>-->
     <ControlTemplate x:Key="RadRibbonGalleryTemplate" TargetType="telerik1:RadRibbonGallery">
         <Grid>
             <Border x:Name="ExpandedBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" Background="{TemplateBinding Background}">
@@ -3459,7 +3459,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="telerik1:RadRibbonGallery" BasedOn="{StaticResource RadRibbonGalleryStyle}"/>
+    <!--<Style TargetType="telerik1:RadRibbonGallery" BasedOn="{StaticResource RadRibbonGalleryStyle}"/>-->
     <ItemsPanelTemplate x:Key="ButtonGroupPanel">
         <telerikRibbonViewPrimitives:ButtonGroupPanel/>
     </ItemsPanelTemplate>
@@ -3512,8 +3512,8 @@
         <Setter Property="BorderBrush" Value="{StaticResource BasicBrush}"/>
         <Setter Property="Template" Value="{StaticResource RadButtonGroupItemTemplate}"/>
     </Style>
-    <Style TargetType="telerik1:RadButtonGroup" BasedOn="{StaticResource RadButtonGroupStyle}"/>
-    <Style TargetType="telerik1:RadButtonGroupItem" BasedOn="{StaticResource RadButtonGroupItemStyle}"/>
+    <!--<Style TargetType="telerik1:RadButtonGroup" BasedOn="{StaticResource RadButtonGroupStyle}"/>
+    <Style TargetType="telerik1:RadButtonGroupItem" BasedOn="{StaticResource RadButtonGroupItemStyle}"/>-->
     <ControlTemplate x:Key="GroupChromeTemplate" TargetType="telerikRibbonViewPrimitives:GroupChrome">
         <Grid Background="Transparent">
             <Grid.RowDefinitions>
@@ -3568,7 +3568,7 @@
         <Setter Property="BorderThickness" Value="0 0 1 0"/>
         <Setter Property="Padding" Value="3 3 5 3"/>
     </Style>
-    <Style TargetType="telerikRibbonViewPrimitives:GroupChrome" BasedOn="{StaticResource GroupChromeStyle}"/>
+    <!--<Style TargetType="telerikRibbonViewPrimitives:GroupChrome" BasedOn="{StaticResource GroupChromeStyle}"/>-->
     <ControlTemplate x:Key="RadGroupHeaderTemplate" TargetType="telerik1:RadGroupHeader">
         <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
             <ContentControl
@@ -3592,7 +3592,7 @@
         <Setter Property="IsTabStop" Value="False"/>
         <Setter Property="UseLayoutRounding" Value="True"/>
     </Style>
-    <Style TargetType="telerik1:RadGroupHeader" BasedOn="{StaticResource RadGroupHeaderStyle}"/>
+    <!--<Style TargetType="telerik1:RadGroupHeader" BasedOn="{StaticResource RadGroupHeaderStyle}"/>-->
     <ControlTemplate x:Key="RadRibbonGroupDropDownButtonTemplate" TargetType="telerik1:RadRibbonDropDownButton">
         <Grid>
             <Grid.ColumnDefinitions>
@@ -3877,7 +3877,7 @@
         </Setter>
         <Setter Property="Template" Value="{StaticResource RadRibbonGroupTemplate}"/>
     </Style>
-    <Style TargetType="telerik1:RadRibbonGroup" BasedOn="{StaticResource RadRibbonGroupStyle}"/>
+    <!--<Style TargetType="telerik1:RadRibbonGroup" BasedOn="{StaticResource RadRibbonGroupStyle}"/>-->
     <ControlTemplate x:Key="ApplicationRibbonButtonTemplate" TargetType="telerik1:RadRibbonButton">
         <Grid>
             <VisualStateManager.VisualStateGroups>
@@ -4305,7 +4305,7 @@
         <Setter Property="IsTabStop" Value="False"/>
         <Setter Property="UseLayoutRounding" Value="True"/>
     </Style>
-    <Style TargetType="telerik1:ApplicationMenu" BasedOn="{StaticResource ApplicationMenuStyle}"/>
+    <!--<Style TargetType="telerik1:ApplicationMenu" BasedOn="{StaticResource ApplicationMenuStyle}"/>-->
     <ControlTemplate x:Key="DropShadowTemplate" TargetType="telerikRibbonViewPrimitives:DropShadow">
         <Grid>
             <Rectangle Name="Left" HorizontalAlignment="Left" VerticalAlignment="Stretch" IsHitTestVisible="False"/>
@@ -4503,10 +4503,10 @@
         <Setter Property="IsTabStop" Value="False"/>
         <Setter Property="Template" Value="{StaticResource RibbonScrollViewerTemplate}"/>
     </Style>
-    <Style TargetType="telerikRibbonViewPrimitives:DropShadow" BasedOn="{StaticResource DropShadowStyle}"/>
+    <!--<Style TargetType="telerikRibbonViewPrimitives:DropShadow" BasedOn="{StaticResource DropShadowStyle}"/>
     <Style TargetType="telerikKeyTips:KeyTipControl" BasedOn="{StaticResource KeyTipControlStyle}"/>
     <Style TargetType="telerik1:ScreenTip" BasedOn="{StaticResource ScreenTipStyle}"/>
-    <Style TargetType="telerikRibbonViewPrimitives:RibbonScrollViewer" BasedOn="{StaticResource RibbonScrollViewerStyle}"/>
+    <Style TargetType="telerikRibbonViewPrimitives:RibbonScrollViewer" BasedOn="{StaticResource RibbonScrollViewerStyle}"/>-->
     <ControlTemplate x:Key="RadRibbonBackstageItemTemplate" TargetType="telerik1:RadRibbonBackstageItem">
         <Grid x:Name="wrapper" Background="Transparent">
             <VisualStateManager.VisualStateGroups>
@@ -4737,8 +4737,8 @@
         <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Auto"/>
         <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto"/>
     </Style>
-    <Style TargetType="telerik1:RadRibbonBackstage" BasedOn="{StaticResource RadRibbonBackstageStyle}"/>
-    <Style TargetType="telerik1:RadRibbonBackstageItem" BasedOn="{StaticResource RadRibbonBackstageItemStyle}"/>
+    <!--<Style TargetType="telerik1:RadRibbonBackstage" BasedOn="{StaticResource RadRibbonBackstageStyle}"/>
+    <Style TargetType="telerik1:RadRibbonBackstageItem" BasedOn="{StaticResource RadRibbonBackstageItemStyle}"/>-->
     <ControlTemplate x:Key="RadRibbonTabTemplate" TargetType="telerik1:RadRibbonTab">
         <Grid x:Name="RootPanel">
             <VisualStateManager.VisualStateGroups>
@@ -4874,7 +4874,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="telerik1:RadRibbonTab" BasedOn="{StaticResource RadRibbonTabStyle}"/>
+    <!--<Style TargetType="telerik1:RadRibbonTab" BasedOn="{StaticResource RadRibbonTabStyle}"/>-->
     <ControlTemplate x:Key="ContextualTabsTemplate" TargetType="telerik1:RadRibbonTab">
         <Grid x:Name="RootPanel">
             <VisualStateManager.VisualStateGroups>
@@ -5462,10 +5462,10 @@
         </Setter>
         <Setter Property="Template" Value="{StaticResource RadRibbonViewTemplate}"/>
     </Style>
-    <Style TargetType="telerik1:QuickAccessToolBar" BasedOn="{StaticResource QuickAccessToolBarStyle}"/>
+    <!--<Style TargetType="telerik1:QuickAccessToolBar" BasedOn="{StaticResource QuickAccessToolBarStyle}"/>
     <Style TargetType="telerikRibbonViewPrimitives:WindowTitle" BasedOn="{StaticResource WindowTitleStyle}"/>
     <Style TargetType="telerik1:RadRibbonView" BasedOn="{StaticResource RadRibbonViewStyle}"/>
-    <Style TargetType="telerik1:RadRibbonContextualGroup" BasedOn="{StaticResource ContextualGroupsStyle}"/>
+    <Style TargetType="telerik1:RadRibbonContextualGroup" BasedOn="{StaticResource ContextualGroupsStyle}"/>-->
     <Style x:Key="RibbonWindow_TitleStyle" TargetType="telerikRibbonViewPrimitives:WindowTitle">
         <Setter Property="IsTabStop" Value="False"/>
         <Setter Property="VerticalAlignment" Value="Center"/>
@@ -5823,6 +5823,6 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="telerik1:RadRibbonWindow" BasedOn="{StaticResource RadRibbonWindowStyle}"/>
+    <!--<Style TargetType="telerik1:RadRibbonWindow" BasedOn="{StaticResource RadRibbonWindowStyle}"/>-->
 
 </ResourceDictionary>

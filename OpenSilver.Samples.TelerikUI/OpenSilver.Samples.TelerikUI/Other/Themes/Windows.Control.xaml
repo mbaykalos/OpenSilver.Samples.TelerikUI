@@ -58,7 +58,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="controls:Label" BasedOn="{StaticResource LabelStyle}"/>
+    <!--<Style TargetType="controls:Label" BasedOn="{StaticResource LabelStyle}"/>-->
 
     <!--Group BOX-->
     <Style TargetType="controls:GroupBox" x:Key="GroupBoxStyle" >
@@ -110,7 +110,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="controls:GroupBox" BasedOn="{StaticResource GroupBoxStyle}"/>
+    <!--<Style TargetType="controls:GroupBox" BasedOn="{StaticResource GroupBoxStyle}"/>-->
 
 
     <!--DRAG VISUAL CUE NOT IMPLEMENTED-->
@@ -567,7 +567,7 @@
             </Setter.Value>
         </Setter>-->
     </Style>
-    <Style TargetType="controls:RadExpander" BasedOn="{StaticResource RadExpanderStyle}"/>
+    <!--<Style TargetType="controls:RadExpander" BasedOn="{StaticResource RadExpanderStyle}"/>-->
 
 
     <!--LegendItemControlStyle & RadLegend Not Implemented-->
@@ -611,7 +611,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style BasedOn="{StaticResource RadItemsControlStyle}" TargetType="controls:ItemsControl"/>
+    <!--<Style BasedOn="{StaticResource RadItemsControlStyle}" TargetType="controls:ItemsControl"/>-->
 
 
     <!--Headered Content Control-->
@@ -667,7 +667,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style BasedOn="{StaticResource RadHeaderedContentControlStyle}" TargetType="controls:HeaderedContentControl"/>
+    <!--<Style BasedOn="{StaticResource RadHeaderedContentControlStyle}" TargetType="controls:HeaderedContentControl"/>-->
 
 
     <!--TOOL TIP CONTENT-->
@@ -765,14 +765,14 @@
         </Grid>
     </ControlTemplate>
 
-    <Style TargetType="chromes:ValidationTooltip">
+    <!--<Style TargetType="chromes:ValidationTooltip">
         <Setter Property="IsTabStop" Value="False"/>
         <Setter Property="CornerRadius" Value="0"/>
         <Setter Property="BorderThickness" Value="1"/>
         <Setter Property="BorderBrush" Value="{StaticResource ValidationBrush}"/>
         <Setter Property="Template" Value="{StaticResource ValidationTooltipTemplate}"/>
         <Setter Property="TooltipContentTemplate" Value="{StaticResource TooltipContentTemplate}"/>
-    </Style>
+    </Style>-->
 
     <!--SHADOW CHROME-->
     <ControlTemplate x:Key="ShadowChromeTemplate" TargetType="chromes:ShadowChrome">
@@ -791,7 +791,7 @@
         <Setter Property="IsHitTestVisible" Value="False"/>
         <Setter Property="Opacity" Value="0.2"/>
     </Style>
-    <Style TargetType="chromes:ShadowChrome" BasedOn="{StaticResource ShadowChromeStyle}"/>
+    <!--<Style TargetType="chromes:ShadowChrome" BasedOn="{StaticResource ShadowChromeStyle}"/>-->
 
 
     <!--LAYOUT TRANSFORM CONTROL-->
@@ -806,7 +806,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="primitives:LayoutTransformControl" BasedOn="{StaticResource LayoutTransformControlStyle}"/>
+    <!--<Style TargetType="primitives:LayoutTransformControl" BasedOn="{StaticResource LayoutTransformControlStyle}"/>-->
 
     <!--PROGRESS BAR : Check ProgressBar_Style.xaml-->
 
@@ -1351,8 +1351,8 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="controls:RadTickBar" BasedOn="{StaticResource RadTickBarStyle}"/>
-    <Style TargetType="controls:RadSlider" BasedOn="{StaticResource RadSliderStyle}"/>
+    <!--<Style TargetType="controls:RadTickBar" BasedOn="{StaticResource RadTickBarStyle}"/>
+    <Style TargetType="controls:RadSlider" BasedOn="{StaticResource RadSliderStyle}"/>-->
 
     <!--RADBUTTON-->
     <Style x:Key="RadButtonStyle" TargetType="controls:RadButton">
@@ -1470,7 +1470,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="controls:RadButton" BasedOn="{StaticResource RadButtonStyle}"/>
+    <!--<Style TargetType="controls:RadButton" BasedOn="{StaticResource RadButtonStyle}"/>-->
 
 
     <!--RadPathButtonPathStyle-->
@@ -1738,7 +1738,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="controls:RadPathButton" BasedOn="{StaticResource RadPathButtonStyle}"/>
+    <!--<Style TargetType="controls:RadPathButton" BasedOn="{StaticResource RadPathButtonStyle}"/>-->
 
 
     <!--RadToggleButton-->
@@ -1890,7 +1890,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="controls:RadToggleButton" BasedOn="{StaticResource RadToggleButtonStyle}"/>
+    <!--<Style TargetType="controls:RadToggleButton" BasedOn="{StaticResource RadToggleButtonStyle}"/>-->
 
     <!--RadRadioButton-->
     <Style x:Key="RadRadioButtonStyle" TargetType="controls:RadRadioButton">
@@ -2076,7 +2076,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="controls:RadRadioButton" BasedOn="{StaticResource RadRadioButtonStyle}"/>
+    <!--<Style TargetType="controls:RadRadioButton" BasedOn="{StaticResource RadRadioButtonStyle}"/>-->
 
 
     <!--RadDropDownButton-->
@@ -2385,7 +2385,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="controls:RadDropDownButton" BasedOn="{StaticResource RadDropDownButtonStyle}"/>
+    <!--<Style TargetType="controls:RadDropDownButton" BasedOn="{StaticResource RadDropDownButtonStyle}"/>-->
 
 
     <!--RadSplitButtonToggleButtonStyle-->
@@ -2912,7 +2912,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="controls:RadSplitButton" BasedOn="{StaticResource RadSplitButtonStyle}"/>
+    <!--<Style TargetType="controls:RadSplitButton" BasedOn="{StaticResource RadSplitButtonStyle}"/>-->
 
 
     <!--RadTransitionControl-->
@@ -2964,7 +2964,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="controls:RadTransitionControl" BasedOn="{StaticResource RadTransitionControlStyle}"/>
+    <!--<Style TargetType="controls:RadTransitionControl" BasedOn="{StaticResource RadTransitionControlStyle}"/>-->
 
 
     <!--BusyIndicatorProgressBarStyle-->
@@ -3308,7 +3308,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="controls:RadBusyIndicator" BasedOn="{StaticResource RadBusyIndicatorStyle}"/>
+    <!--<Style TargetType="controls:RadBusyIndicator" BasedOn="{StaticResource RadBusyIndicatorStyle}"/>-->
 
 
     <!--RadWatermarkTextBox-->
@@ -3492,7 +3492,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="controls:RadWatermarkTextBox" BasedOn="{StaticResource RadWatermarkTextBoxStyle}"/>
+    <!--<Style TargetType="controls:RadWatermarkTextBox" BasedOn="{StaticResource RadWatermarkTextBoxStyle}"/>-->
 
 
     <!--StringFilterEditorTemplate-->
@@ -3528,7 +3528,7 @@
         <Setter Property="Template" Value="{StaticResource StringFilterEditorTemplate}"/>
         <Setter Property="IsTabStop" Value="False"/>
     </Style>
-    <Style TargetType="filteringEditors:StringFilterEditor" BasedOn="{StaticResource StringFilterEditorStyle}"/>
+    <!--<Style TargetType="filteringEditors:StringFilterEditor" BasedOn="{StaticResource StringFilterEditorStyle}"/>-->
 
 
     <!--RadToolTip-->
@@ -3561,7 +3561,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="controls:RadToolTip" BasedOn="{StaticResource RadToolTipStyle}"/>
+    <!--<Style TargetType="controls:RadToolTip" BasedOn="{StaticResource RadToolTipStyle}"/>-->
 
 
     <!--RadToolTipContentView-->
@@ -3595,6 +3595,6 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="controls:RadToolTipContentView" BasedOn="{StaticResource RadToolTipContentViewStyle}"/>
+    <!--<Style TargetType="controls:RadToolTipContentView" BasedOn="{StaticResource RadToolTipContentViewStyle}"/>-->
 
 </ResourceDictionary>

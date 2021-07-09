@@ -270,7 +270,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="TextBox" BasedOn="{StaticResource TextBoxStyle}"/>
+    <!--<Style TargetType="TextBox" BasedOn="{StaticResource TextBoxStyle}"/>-->
     <Style x:Key="CheckBoxStyle" TargetType="CheckBox">
         <Setter Property="Background" Value="{StaticResource MainBrush}"/>
         <Setter Property="BorderBrush" Value="{StaticResource BasicBrush}"/>
@@ -403,7 +403,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="CheckBox" BasedOn="{StaticResource CheckBoxStyle}"/>
+    <!--<Style TargetType="CheckBox" BasedOn="{StaticResource CheckBoxStyle}"/>-->
     <Style x:Key="RadioButtonStyle" TargetType="RadioButton">
         <Setter Property="Background" Value="{StaticResource MainBrush}"/>
         <Setter Property="BorderBrush" Value="{StaticResource BasicBrush}"/>
@@ -501,7 +501,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="RadioButton" BasedOn="{StaticResource RadioButtonStyle}"/>
+    <!--<Style TargetType="RadioButton" BasedOn="{StaticResource RadioButtonStyle}"/>-->
     <Style x:Key="RadButtonStyle" TargetType="telerik1:RadButton">
         <Setter Property="BorderThickness" Value="1"/>
         <Setter Property="FontFamily" Value="Segoe UI"/>
@@ -2035,12 +2035,12 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="telerik1:RadButton" BasedOn="{StaticResource RadButtonStyle}"/>
+    <!--<Style TargetType="telerik1:RadButton" BasedOn="{StaticResource RadButtonStyle}"/>
     <Style TargetType="telerik1:RadPathButton" BasedOn="{StaticResource RadPathButtonStyle}"/>
     <Style TargetType="telerik1:RadToggleButton" BasedOn="{StaticResource RadToggleButtonStyle}"/>
     <Style TargetType="telerik1:RadRadioButton" BasedOn="{StaticResource RadRadioButtonStyle}"/>
     <Style TargetType="telerik1:RadDropDownButton" BasedOn="{StaticResource RadDropDownButtonStyle}"/>
-    <Style TargetType="telerik1:RadSplitButton" BasedOn="{StaticResource RadSplitButtonStyle}"/>
+    <Style TargetType="telerik1:RadSplitButton" BasedOn="{StaticResource RadSplitButtonStyle}"/>-->
     <Style TargetType="telerikNavigation:RadPanelBar" x:Key="RadPanelbarBaseStyle">
         <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Auto"/>
         <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto"/>
@@ -2333,9 +2333,9 @@
         </Setter>
     </Style>
     <Style TargetType="telerikNavigation:RadPanelBar" BasedOn="{StaticResource RadPanelbarBaseStyle}" x:Key="RadPanelBarStyle"/>
-    <Style TargetType="telerikNavigation:RadPanelBar" BasedOn="{StaticResource RadPanelBarStyle}"/>
+    <!--<Style TargetType="telerikNavigation:RadPanelBar" BasedOn="{StaticResource RadPanelBarStyle}"/>-->
     <Style TargetType="telerikNavigation:RadPanelBarItem" BasedOn="{StaticResource RadPanelbarItemBaseStyle}" x:Key="RadPanelBarItemStyle"/>
-    <Style TargetType="telerikNavigation:RadPanelBarItem" BasedOn="{StaticResource RadPanelBarItemStyle}"/>
+    <!--<Style TargetType="telerikNavigation:RadPanelBarItem" BasedOn="{StaticResource RadPanelBarItemStyle}"/>-->
     <Style x:Key="TileViewMaximizeToggleStyle" TargetType="telerik:RadToggleButton">
         <Setter Property="VerticalAlignment" Value="Center"/>
         <Setter Property="HorizontalAlignment" Value="Right"/>
@@ -2824,9 +2824,9 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="Telerik_Windows_Controls_TileView:TileViewItemHeader" BasedOn="{StaticResource TileViewItemHeaderStyle}"/>
+    <!--<Style TargetType="Telerik_Windows_Controls_TileView:TileViewItemHeader" BasedOn="{StaticResource TileViewItemHeaderStyle}"/>
     <Style TargetType="telerikNavigation:RadTileViewItem" BasedOn="{StaticResource RadTileViewItemStyle}"/>
-    <Style TargetType="telerikNavigation:RadTileView" BasedOn="{StaticResource RadTileViewStyle}"/>
+    <Style TargetType="telerikNavigation:RadTileView" BasedOn="{StaticResource RadTileViewStyle}"/>-->
     <Style x:Key="ToolBarCheckBoxStyle" TargetType="CheckBox" BasedOn="{StaticResource CheckBoxStyle}">
         <Setter Property="VerticalAlignment" Value="Center"/>
         <Setter Property="Margin" Value="1"/>
@@ -3495,9 +3495,9 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="telerikNavigation:RadToolBarSeparator" BasedOn="{StaticResource RadToolBarSeparatorStyle}"/>
+    <!--<Style TargetType="telerikNavigation:RadToolBarSeparator" BasedOn="{StaticResource RadToolBarSeparatorStyle}"/>
     <Style TargetType="telerikNavigation:RadToolBar" BasedOn="{StaticResource RadToolBarStyle}"/>
-    <Style TargetType="telerikNavigation:RadToolBarTray" BasedOn="{StaticResource RadToolBarTrayStyle}"/>
+    <Style TargetType="telerikNavigation:RadToolBarTray" BasedOn="{StaticResource RadToolBarTrayStyle}"/>-->
     <ControlTemplate x:Key="DropDownMenuItemTemplate" TargetType="telerikTabControl:DropDownMenuItem">
         <Grid x:Name="RootElement" Background="Transparent">
             <VisualStateManager.VisualStateGroups>
@@ -3992,10 +3992,10 @@
         <Setter Property="Padding" Value="10 4"/>
         <Setter Property="Template" Value="{StaticResource TabItemTemplate}"/>
     </Style>
-    <Style TargetType="telerikTabControl:DropDownMenuItem" BasedOn="{StaticResource DropDownMenuItemStyle}"/>
+    <!--<Style TargetType="telerikTabControl:DropDownMenuItem" BasedOn="{StaticResource DropDownMenuItemStyle}"/>
     <Style TargetType="telerikTabControl:DropDownMenu" BasedOn="{StaticResource DropDownMenuStyle}"/>
     <Style TargetType="telerikNavigation:RadTabControl" BasedOn="{StaticResource RadTabControlStyle}"/>
-    <Style TargetType="telerikNavigation:RadTabItem" BasedOn="{StaticResource RadTabItemStyle}"/>
+    <Style TargetType="telerikNavigation:RadTabItem" BasedOn="{StaticResource RadTabItemStyle}"/>-->
     <Style x:Key="MenuScrollButton" TargetType="RepeatButton">
         <Setter Property="Interval" Value="50"/>
         <Setter Property="IsTabStop" Value="False"/>
@@ -4528,11 +4528,11 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="telerikNavigation:RadMenuItem" BasedOn="{StaticResource RadMenuItemStyle}"/>
+    <!--<Style TargetType="telerikNavigation:RadMenuItem" BasedOn="{StaticResource RadMenuItemStyle}"/>
     <Style TargetType="telerikNavigation:RadMenuGroupItem" BasedOn="{StaticResource RadMenuGroupItemStyle}"/>
     <Style TargetType="telerikNavigation:RadMenuSeparatorItem" BasedOn="{StaticResource RadMenuSeparatorItemStyle}"/>
     <Style TargetType="telerikNavigation:RadMenu" BasedOn="{StaticResource RadMenuStyle}"/>
-    <Style TargetType="telerikNavigation:RadContextMenu" BasedOn="{StaticResource RadContextMenuStyle}"/>
+    <Style TargetType="telerikNavigation:RadContextMenu" BasedOn="{StaticResource RadContextMenuStyle}"/>-->
     <Style x:Key="RadialMenuButtonStyle" TargetType="telerikRadialMenu:RadialMenuButton">
         <Setter Property="BorderThickness" Value="2"/>
         <Setter Property="BorderBrush" Value="{StaticResource BasicBrush}"/>
@@ -5091,12 +5091,12 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="telerikRadialMenu:MenuToolTip" BasedOn="{StaticResource MenuToolTipStyle}"/>
+    <!--<Style TargetType="telerikRadialMenu:MenuToolTip" BasedOn="{StaticResource MenuToolTipStyle}"/>
     <Style TargetType="telerikRadialMenu:NavigationItemButton" BasedOn="{StaticResource NavigationItemButtonStyle}"/>
     <Style TargetType="telerikRadialMenu:VisualStatesItemPresenter" BasedOn="{StaticResource VisualStatesItemPresenterStyle}"/>
     <Style TargetType="telerikNavigation:RadRadialMenu" BasedOn="{StaticResource RadRadialMenuStyle}"/>
     <Style TargetType="telerikNavigation:RadRadialMenuItem" BasedOn="{StaticResource RadRadialMenuItemStyle}"/>
-    <Style TargetType="telerikRadialMenu:RadialMenuButton" BasedOn="{StaticResource RadialMenuButtonStyle}"/>
+    <Style TargetType="telerikRadialMenu:RadialMenuButton" BasedOn="{StaticResource RadialMenuButtonStyle}"/>-->
 
     <!-- RadWindow Styles -->
     <DataTemplate x:Key="AlertIconTemplate">
@@ -5438,7 +5438,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="telerikNavigation:RadPrompt" BasedOn="{StaticResource RadPromptStyle}"/>
+    <!--<Style TargetType="telerikNavigation:RadPrompt" BasedOn="{StaticResource RadPromptStyle}"/>-->
     <Style x:Key="RadConfirmStyle" TargetType="telerikNavigation:RadConfirm">
         <Setter Property="IsTabStop" Value="false"/>
         <Setter Property="MinWidth" Value="275"/>
@@ -5484,7 +5484,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="telerikNavigation:RadConfirm" BasedOn="{StaticResource RadConfirmStyle}"/>
+    <!--<Style TargetType="telerikNavigation:RadConfirm" BasedOn="{StaticResource RadConfirmStyle}"/>-->
     <Style x:Key="RadAlertStyle" TargetType="telerikNavigation:RadAlert">
         <Setter Property="IsTabStop" Value="false"/>
         <Setter Property="MinWidth" Value="275"/>
@@ -5528,8 +5528,8 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="telerikNavigation:RadAlert" BasedOn="{StaticResource RadAlertStyle}"/>
-    <Style TargetType="telerikNavigation:RadWindow" BasedOn="{StaticResource RadWindowStyle}"/>
+    <!--<Style TargetType="telerikNavigation:RadAlert" BasedOn="{StaticResource RadAlertStyle}"/>
+    <Style TargetType="telerikNavigation:RadWindow" BasedOn="{StaticResource RadWindowStyle}"/>-->
     <localization:CultureToLocalizationStringConverter x:Key="cultureToStringConverter"/>
     <telerik:LocalizationManager x:Key="localizationManagerProvider"/>
     <Style TargetType="treeView:TreeViewDragVisual" x:Key="TreeViewDragVisualStyle">
@@ -5752,7 +5752,7 @@
         </Setter>
         <Setter Property="ExpanderStyle">
             <Setter.Value>
-                <Style TargetType="ToggleButton">
+                <!--<Style TargetType="ToggleButton">
                     <Setter Property="IsEnabled" Value="True"/>
                     <Setter Property="IsTabStop" Value="False"/>
                     <Setter Property="Cursor" Value="Hand"/>
@@ -5853,7 +5853,7 @@
                             </ControlTemplate>
                         </Setter.Value>
                     </Setter>
-                </Style>
+                </Style>-->
             </Setter.Value>
         </Setter>
         <Setter Property="Template">
@@ -6126,10 +6126,10 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="treeView:TreeViewDragVisual" BasedOn="{StaticResource TreeViewDragVisualStyle}"/>
+    <!--<Style TargetType="treeView:TreeViewDragVisual" BasedOn="{StaticResource TreeViewDragVisualStyle}"/>
     <Style TargetType="treeView:TreeViewDragCue" BasedOn="{StaticResource TreeViewDragCueStyle}"/>
     <Style TargetType="telerikNavigation:RadTreeView" BasedOn="{StaticResource RadTreeViewStyle}"/>
-    <Style TargetType="telerikNavigation:RadTreeViewItem" BasedOn="{StaticResource RadTreeViewItemStyle}"/>
+    <Style TargetType="telerikNavigation:RadTreeViewItem" BasedOn="{StaticResource RadTreeViewItemStyle}"/>-->
     <outlookBarPrimitives:ResizerAlignmentToHorizontalAlignmentConverter x:Key="AlignmentConverter"/>
     <Style TargetType="telerik1:RadToggleButton" x:Key="OutlookBarMinimizeButtonStyle">
         <Setter Property="BorderThickness" Value="1"/>
@@ -6906,10 +6906,10 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="outlookBarPrimitives:MinimizedOutlookBarItem" BasedOn="{StaticResource MinimizedOutlookBarItemStyle}"/>
+    <!--<Style TargetType="outlookBarPrimitives:MinimizedOutlookBarItem" BasedOn="{StaticResource MinimizedOutlookBarItemStyle}"/>
     <Style TargetType="outlookBarPrimitives:MinimizedOutlookBarArea" BasedOn="{StaticResource MinimizedOutlookBarAreaStyle}"/>
     <Style TargetType="telerikNavigation:RadOutlookBar" BasedOn="{StaticResource RadOutlookBarStyle}"/>
-    <Style TargetType="telerikNavigation:RadOutlookBarItem" BasedOn="{StaticResource RadOutlookBarItemStyle}"/>
+    <Style TargetType="telerikNavigation:RadOutlookBarItem" BasedOn="{StaticResource RadOutlookBarItemStyle}"/>-->
     <LinearGradientBrush x:Key="Book_Shadow1" EndPoint="0,0.5" StartPoint="1,0.5">
         <GradientStop Color="#5F000000" Offset="0.033"/>
         <GradientStop Color="#00000000" Offset="1"/>
@@ -6990,8 +6990,8 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="telerikNavigation:RadBook" BasedOn="{StaticResource RadBookStyle}"/>
-    <Style TargetType="telerikNavigation:RadBookItem" BasedOn="{StaticResource RadBookItemStyle}"/>
+    <!--<Style TargetType="telerikNavigation:RadBook" BasedOn="{StaticResource RadBookStyle}"/>
+    <Style TargetType="telerikNavigation:RadBookItem" BasedOn="{StaticResource RadBookItemStyle}"/>-->
     <Style x:Key="BreadcrumbImageStyle" TargetType="Image">
         <Setter Property="MaxHeight" Value="16"/>
         <Setter Property="MaxWidth" Value="16"/>
@@ -7740,7 +7740,7 @@
         <Setter Property="BorderThickness" Value="0"/>
         <Setter Property="Padding" Value="3"/>
     </Style>
-    <Style TargetType="telerikNavigation:RadBreadcrumb" BasedOn="{StaticResource RadBreadcrumbStyle}"/>
+    <!--<Style TargetType="telerikNavigation:RadBreadcrumb" BasedOn="{StaticResource RadBreadcrumbStyle}"/>
     <Style TargetType="telerikBreadcrumb:RadBreadcrumbBar" BasedOn="{StaticResource RadBreadcrumbBarStyle}"/>
     <Style TargetType="telerikBreadcrumb:RadBreadcrumbBarItem" BasedOn="{StaticResource RadBreadcrumbBarItemStyle}"/>
     <Style TargetType="telerikNavigation:RadCoverFlow">
@@ -7855,7 +7855,7 @@
                 <BitmapCache/>
             </Setter.Value>
         </Setter>
-    </Style>
+    </Style>-->
     <sys:Double x:Key="WizardButtonMinWidth">70</sys:Double>
     <sys:Double x:Key="WizardButtonMinHeight">22</sys:Double>
     <sys:Double x:Key="WizardFooterMinHeight">40</sys:Double>
@@ -8027,8 +8027,8 @@
         <Setter Property="Padding" Value="7 6"/>
         <Setter Property="UseLayoutRounding" Value="True"/>
     </Style>
-    <Style TargetType="telerikNavigation:RadWizard" BasedOn="{StaticResource RadWizardStyle}"/>
+    <!--<Style TargetType="telerikNavigation:RadWizard" BasedOn="{StaticResource RadWizardStyle}"/>
     <Style TargetType="telerikNavigation:WizardPage" BasedOn="{StaticResource WizardPageStyle}"/>
     <Style TargetType="telerikNavigation:CompletionWizardPage" BasedOn="{StaticResource WizardPageStyle}"/>
-    <Style TargetType="telerikNavigation:WelcomeWizardPage" BasedOn="{StaticResource WizardPageStyle}"/>
+    <Style TargetType="telerikNavigation:WelcomeWizardPage" BasedOn="{StaticResource WizardPageStyle}"/>-->
 </ResourceDictionary>

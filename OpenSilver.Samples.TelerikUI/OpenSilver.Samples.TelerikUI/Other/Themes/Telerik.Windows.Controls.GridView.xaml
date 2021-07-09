@@ -56,7 +56,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="grid:AggregateResultsList" BasedOn="{StaticResource AggregateResultsListStyle}"/>
+    <!--<Style TargetType="grid:AggregateResultsList" BasedOn="{StaticResource AggregateResultsListStyle}"/>-->
     <ControlTemplate x:Key="AutoCompleteStringFilterEditorTemplate" TargetType="grid:AutoCompleteStringFilterEditor">
         <Grid MinWidth="100">
             <Grid.ColumnDefinitions>
@@ -82,7 +82,7 @@
         <Setter Property="Template" Value="{StaticResource AutoCompleteStringFilterEditorTemplate}"/>
         <Setter Property="IsTabStop" Value="False"/>
     </Style>
-    <Style TargetType="grid:AutoCompleteStringFilterEditor" BasedOn="{StaticResource AutoCompleteStringFilterEditorStyle}"/>
+    <!--<Style TargetType="grid:AutoCompleteStringFilterEditor" BasedOn="{StaticResource AutoCompleteStringFilterEditorStyle}"/>-->
     <Style x:Key="ControlPanelItem_DropDownButtonStyle" TargetType="telerik:RadDropDownButton">
         <Setter Property="IsOpen" Value="false"/>
         <Setter Property="BorderThickness" Value="1"/>
@@ -282,7 +282,7 @@
     <Style x:Key="ControlPanelItemControlStyle" TargetType="grid:ControlPanelItemControl">
         <Setter Property="Template" Value="{StaticResource ControlPanelItemControlTemplate}"/>
     </Style>
-    <Style TargetType="grid:ControlPanelItemControl" BasedOn="{StaticResource ControlPanelItemControlStyle}"/>
+    <!--<Style TargetType="grid:ControlPanelItemControl" BasedOn="{StaticResource ControlPanelItemControlStyle}"/>-->
     <ControlTemplate x:Key="ChildDataControlsPresenterTemplate" TargetType="grid:ChildDataControlsPresenter">
         <ItemsControl x:Name="PART_ChildDataItemsControl" ItemsSource="{Binding}" IsTabStop="{TemplateBinding IsTabStop}">
             <ItemsControl.ItemTemplate>
@@ -295,7 +295,7 @@
     <Style x:Key="ChildDataControlsPresenterStyle" TargetType="grid:ChildDataControlsPresenter">
         <Setter Property="Template" Value="{StaticResource ChildDataControlsPresenterTemplate}"/>
     </Style>
-    <Style TargetType="grid:ChildDataControlsPresenter" BasedOn="{StaticResource ChildDataControlsPresenterStyle}"/>
+    <!--<Style TargetType="grid:ChildDataControlsPresenter" BasedOn="{StaticResource ChildDataControlsPresenterStyle}"/>-->
     <ControlTemplate x:Key="CommonColumnHeaderTemplate" TargetType="grid:CommonColumnHeader">
         <Grid x:Name="PART_HeaderCellGrid" Background="Transparent">
             <Border x:Name="GridViewHeaderCell"
@@ -320,7 +320,7 @@
         <Setter Property="VerticalContentAlignment" Value="Center"/>
         <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
     </Style>
-    <Style TargetType="grid:CommonColumnHeader" BasedOn="{StaticResource CommonColumnHeaderStyle}"/>
+    <!--<Style TargetType="grid:CommonColumnHeader" BasedOn="{StaticResource CommonColumnHeaderStyle}"/>-->
     <ControlTemplate x:Key="CommonHeaderPresenterTemplate" TargetType="grid:CommonHeaderPresenter">
         <Border
                 Visibility="{TemplateBinding Visibility}"
@@ -338,7 +338,7 @@
         <Setter Property="BorderBrush" Value="{StaticResource AccentBrush}"/>
         <Setter Property="BorderThickness" Value="0 0 0 1"/>
     </Style>
-    <Style TargetType="grid:CommonHeaderPresenter" BasedOn="{StaticResource CommonHeaderPresenterStyle}"/>
+    <!--<Style TargetType="grid:CommonHeaderPresenter" BasedOn="{StaticResource CommonHeaderPresenterStyle}"/>-->
     <ControlTemplate x:Key="DataCellsPresenterTemplate" TargetType="grid:DataCellsPresenter">
         <Grid>
             <ItemsPresenter/>
@@ -357,7 +357,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="grid:DataCellsPresenter" BasedOn="{StaticResource DataCellsPresenterStyle}"/>
+    <!--<Style TargetType="grid:DataCellsPresenter" BasedOn="{StaticResource DataCellsPresenterStyle}"/>-->
     <ControlTemplate x:Key="DetailsPresenterTemplate" TargetType="grid:DetailsPresenter">
         <Border x:Name="DetailsBorder" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}">
             <VisualStateManager.VisualStateGroups>
@@ -392,7 +392,7 @@
         <Setter Property="Padding" Value="0"/>
         <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
     </Style>
-    <Style TargetType="grid:DetailsPresenter" BasedOn="{StaticResource DetailsPresenterStyle}"/>
+    <!--<Style TargetType="grid:DetailsPresenter" BasedOn="{StaticResource DetailsPresenterStyle}"/>-->
     <ControlTemplate TargetType="grid:FilteringDropDown" x:Key="DistinctFilterControlTemplate">
         <Grid>
             <Button x:Name="PART_DropDownButton">
@@ -427,7 +427,7 @@
     <Style x:Key="FilteringDropDownStyle" TargetType="grid:FilteringDropDown">
         <Setter Property="Template" Value="{StaticResource DistinctFilterControlTemplate}"/>
     </Style>
-    <Style TargetType="grid:FilteringDropDown" BasedOn="{StaticResource FilteringDropDownStyle}"/>
+    <!--<Style TargetType="grid:FilteringDropDown" BasedOn="{StaticResource FilteringDropDownStyle}"/>-->
     <Style x:Key="DraggedElementStyle" TargetType="controls:DraggedElement">
         <Setter Property="Template">
             <Setter.Value>
@@ -455,7 +455,7 @@
         <Setter Property="VerticalContentAlignment" Value="Top"/>
         <Setter Property="HorizontalContentAlignment" Value="Left"/>
     </Style>
-    <Style TargetType="controls:DraggedElement" BasedOn="{StaticResource DraggedElementStyle}"/>
+    <!--<Style TargetType="controls:DraggedElement" BasedOn="{StaticResource DraggedElementStyle}"/>-->
     <Style x:Key="DistinctValueListBoxItemStyle" TargetType="ListBoxItem">
         <Setter Property="Padding" Value="3"/>
         <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
@@ -583,7 +583,7 @@
         <Setter Property="VerticalContentAlignment" Value="Stretch"/>
         <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
     </Style>
-    <Style TargetType="grid:FilteringControl" BasedOn="{StaticResource FilteringControlStyle}"/>
+    <!--<Style TargetType="grid:FilteringControl" BasedOn="{StaticResource FilteringControlStyle}"/>-->
     <DataTemplate x:Key="FilterOperatorItemTemplate">
         <TextBlock Text="{Binding Converter={StaticResource FilterOperatorConverter}}"/>
     </DataTemplate>
@@ -666,7 +666,7 @@
         <Setter Property="BorderBrush" Value="{StaticResource AccentBrush}"/>
         <Setter Property="telerik:TouchManager.TouchMode" Value="None"/>
     </Style>
-    <Style TargetType="grid:FieldFilterControl" BasedOn="{StaticResource FieldFilterControlStyle}"/>
+    <!--<Style TargetType="grid:FieldFilterControl" BasedOn="{StaticResource FieldFilterControlStyle}"/>-->
     <ControlTemplate x:Key="FrozenColumnsSplitterTemplate" TargetType="grid:FrozenColumnsSplitter">
         <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Width="5">
             <Border Background="{TemplateBinding Background}" Opacity="0.2" Width="4"/>
@@ -691,8 +691,8 @@
         <Setter Property="BorderThickness" Value="1 0 0 0"/>
         <Setter Property="IsTabStop" Value="False"/>
     </Style>
-    <Style TargetType="grid:FrozenColumnsSplitter" BasedOn="{StaticResource FrozenColumnsSplitterStyle}"/>
-    <Style TargetType="grid:FrozenColumnsSplitterRightSide" BasedOn="{StaticResource FrozenColumnsSplitterRightSideStyle}"/>
+    <!--<Style TargetType="grid:FrozenColumnsSplitter" BasedOn="{StaticResource FrozenColumnsSplitterStyle}"/>
+    <Style TargetType="grid:FrozenColumnsSplitterRightSide" BasedOn="{StaticResource FrozenColumnsSplitterRightSideStyle}"/>-->
     <ControlTemplate x:Key="GridViewAggregateResultCellTemplate" TargetType="grid:GridViewAggregateResultCell">
         <StackPanel
                 Orientation="Horizontal"
@@ -715,7 +715,7 @@
         <Setter Property="VerticalContentAlignment" Value="Center"/>
         <Setter Property="HorizontalContentAlignment" Value="Left"/>
     </Style>
-    <Style TargetType="grid:GridViewAggregateResultCell" BasedOn="{StaticResource GridViewAggregateResultCellStyle}"/>
+    <!--<Style TargetType="grid:GridViewAggregateResultCell" BasedOn="{StaticResource GridViewAggregateResultCellStyle}"/>-->
     <ControlTemplate x:Key="GridViewCell_ValidationToolTipTemplate" TargetType="ToolTip">
         <Grid x:Name="Root" Margin="2 0" Opacity="0" Background="Transparent" RenderTransformOrigin="0 0">
             <VisualStateManager.VisualStateGroups>
@@ -973,7 +973,7 @@
         <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
         <Setter Property="Background" Value="Transparent"/>
     </Style>
-    <Style TargetType="grid:GridViewCell" BasedOn="{StaticResource GridViewCellStyle}"/>
+    <!--<Style TargetType="grid:GridViewCell" BasedOn="{StaticResource GridViewCellStyle}"/>-->
     <ControlTemplate x:Key="GridViewColumnGroupRowTemplate" TargetType="grid:GridViewColumnGroupRow">
         <Border Background="{TemplateBinding Background}">
             <grid:SelectiveScrollingGrid>
@@ -996,7 +996,7 @@
         <Setter Property="Template" Value="{StaticResource GridViewColumnGroupRowTemplate}"/>
         <Setter Property="MinHeight" Value="16"/>
     </Style>
-    <Style TargetType="grid:GridViewColumnGroupRow" BasedOn="{StaticResource GridViewColumnGroupRowStyle}"/>
+    <!--<Style TargetType="grid:GridViewColumnGroupRow" BasedOn="{StaticResource GridViewColumnGroupRowStyle}"/>-->
     <Style x:Key="ColumnHeaderGripperStyle" TargetType="Thumb">
         <Setter Property="Width" Value="6"/>
         <Setter Property="Background" Value="Transparent"/>
@@ -1168,7 +1168,7 @@
         <Setter Property="VerticalContentAlignment" Value="Center"/>
         <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
     </Style>
-    <Style TargetType="grid:GridViewHeaderCell" BasedOn="{StaticResource GridViewHeaderCellStyle}"/>
+    <!--<Style TargetType="grid:GridViewHeaderCell" BasedOn="{StaticResource GridViewHeaderCellStyle}"/>-->
     <ControlTemplate x:Key="GridViewFooterCellTemplate" TargetType="grid:GridViewFooterCell">
         <Border x:Name="PART_FooterCellBorder"
                 Background="{TemplateBinding Background}"
@@ -1190,7 +1190,7 @@
         <Setter Property="BorderThickness" Value="0"/>
         <Setter Property="Padding" Value="5 5 3 5"/>
     </Style>
-    <Style TargetType="grid:GridViewFooterCell" BasedOn="{StaticResource GridViewFooterCellStyle}"/>
+    <!--<Style TargetType="grid:GridViewFooterCell" BasedOn="{StaticResource GridViewFooterCellStyle}"/>-->
     <ControlTemplate x:Key="GridViewGroupFooterCellTemplate" TargetType="grid:GridViewGroupFooterCell">
         <Border x:Name="PART_FooterCellBorder"
                 Background="{TemplateBinding Background}"
@@ -1214,7 +1214,7 @@
         <Setter Property="BorderThickness" Value="0"/>
         <Setter Property="Padding" Value="5 5 3 5"/>
     </Style>
-    <Style TargetType="grid:GridViewGroupFooterCell" BasedOn="{StaticResource GridViewGroupFooterCellStyle}"/>
+    <!--<Style TargetType="grid:GridViewGroupFooterCell" BasedOn="{StaticResource GridViewGroupFooterCellStyle}"/>-->
     <Style x:Key="GridViewIndentCellStyle" TargetType="grid:GridViewIndentCell">
         <Setter Property="Background" Value="{StaticResource MainBrush}"/>
         <Setter Property="BorderBrush" Value="{StaticResource BasicBrush}"/>
@@ -1237,7 +1237,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="grid:GridViewIndentCell" BasedOn="{StaticResource GridViewIndentCellStyle}"/>
+    <!--<Style TargetType="grid:GridViewIndentCell" BasedOn="{StaticResource GridViewIndentCellStyle}"/>-->
     <Style x:Key="GridViewFooterIndentCellStyle" TargetType="grid:GridViewFooterIndentCell">
         <Setter Property="Template">
             <Setter.Value>
@@ -1259,7 +1259,7 @@
         <Setter Property="VerticalContentAlignment" Value="Stretch"/>
         <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
     </Style>
-    <Style TargetType="grid:GridViewFooterIndentCell" BasedOn="{StaticResource GridViewFooterIndentCellStyle}"/>
+    <!--<Style TargetType="grid:GridViewFooterIndentCell" BasedOn="{StaticResource GridViewFooterIndentCellStyle}"/>-->
     <Style x:Key="GridViewGroupFooterIndentCellStyle" TargetType="grid:GridViewGroupFooterIndentCell">
         <Setter Property="Template">
             <Setter.Value>
@@ -1281,7 +1281,7 @@
         <Setter Property="VerticalContentAlignment" Value="Stretch"/>
         <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
     </Style>
-    <Style TargetType="grid:GridViewGroupFooterIndentCell" BasedOn="{StaticResource GridViewGroupFooterIndentCellStyle}"/>
+    <!--<Style TargetType="grid:GridViewGroupFooterIndentCell" BasedOn="{StaticResource GridViewGroupFooterIndentCellStyle}"/>-->
     <Style x:Key="GridViewHeaderIndentCellStyle" TargetType="grid:GridViewHeaderIndentCell">
         <Setter Property="Template">
             <Setter.Value>
@@ -1304,7 +1304,7 @@
         <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
         <Setter Property="Padding" Value="0"/>
     </Style>
-    <Style TargetType="grid:GridViewHeaderIndentCell" BasedOn="{StaticResource GridViewHeaderIndentCellStyle}"/>
+    <!--<Style TargetType="grid:GridViewHeaderIndentCell" BasedOn="{StaticResource GridViewHeaderIndentCellStyle}"/>-->
     <Style x:Key="RowGripperStyle" TargetType="Thumb">
         <Setter Property="Height" Value="4"/>
         <Setter Property="Background" Value="Transparent"/>
@@ -1693,7 +1693,7 @@
         <Setter Property="Padding" Value="0"/>
         <Setter Property="BorderThickness" Value="0"/>
     </Style>
-    <Style TargetType="grid:GridViewRow" BasedOn="{StaticResource GridViewRowStyle}"/>
+    <!--<Style TargetType="grid:GridViewRow" BasedOn="{StaticResource GridViewRowStyle}"/>-->
     <ControlTemplate x:Key="GridViewNewRow_ValidationToolTipTemplate" TargetType="ToolTip">
         <Grid x:Name="Root" Margin="2 0" Opacity="0" Background="Transparent" RenderTransformOrigin="0 0">
             <VisualStateManager.VisualStateGroups>
@@ -1772,10 +1772,10 @@
     <ControlTemplate x:Key="GridViewNewRowTemplate" TargetType="grid:GridViewNewRow">
         <grid:SelectiveScrollingGrid x:Name="grid">
             <grid:SelectiveScrollingGrid.Resources>
-                <Style TargetType="grid:GridViewIndentCell" BasedOn="{StaticResource GridViewIndentCellStyle}">
+                <!--<Style TargetType="grid:GridViewIndentCell" BasedOn="{StaticResource GridViewIndentCellStyle}">
                     <Setter Property="Background" Value="{StaticResource BasicBrush}"/>
                     <Setter Property="Width" Value="25"/>
-                </Style>
+                </Style>-->
             </grid:SelectiveScrollingGrid.Resources>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
@@ -2060,7 +2060,7 @@
         <Setter Property="VerticalContentAlignment" Value="Center"/>
         <Setter Property="HorizontalContentAlignment" Value="Left"/>
     </Style>
-    <Style TargetType="grid:GridViewNewRow" BasedOn="{StaticResource GridViewNewRowStyle}"/>
+    <!--<Style TargetType="grid:GridViewNewRow" BasedOn="{StaticResource GridViewNewRowStyle}"/>-->
     <DataTemplate x:Key="GroupHeaderTemplate">
         <ContentControl Foreground="{StaticResource AccentBrush}" FontWeight="Bold" Content="{Binding Header}"/>
     </DataTemplate>
@@ -2232,7 +2232,7 @@
         <Setter Property="HorizontalContentAlignment" Value="Left"/>
         <Setter Property="MinHeight" Value="25"/>
     </Style>
-    <Style TargetType="grid:GridViewGroupRow" BasedOn="{StaticResource GridViewGroupRowStyle}"/>
+    <!--<Style TargetType="grid:GridViewGroupRow" BasedOn="{StaticResource GridViewGroupRowStyle}"/>-->
     <ControlTemplate x:Key="GridViewGroupHeaderCellTemplate" TargetType="grid:GridViewGroupHeaderCell">
         <Border x:Name="PART_CellBorder"
                 BorderBrush="{TemplateBinding BorderBrush}"
@@ -2256,7 +2256,7 @@
         <Setter Property="FontFamily" Value="Segoe UI"/>
         <Setter Property="Foreground" Value="{StaticResource AccentBrush}"/>
     </Style>
-    <Style TargetType="grid:GridViewGroupHeaderCell" BasedOn="{StaticResource GridViewGroupHeaderCellStyle}"/>
+    <!--<Style TargetType="grid:GridViewGroupHeaderCell" BasedOn="{StaticResource GridViewGroupHeaderCellStyle}"/>-->
     <DataTemplate x:Key="GroupHeaderRowHeaderTemplate">
         <ContentControl Foreground="{StaticResource AccentBrush}" FontWeight="Bold" Content="{Binding Header}"/>
     </DataTemplate>
@@ -2490,7 +2490,7 @@
         <Setter Property="HorizontalContentAlignment" Value="Left"/>
         <Setter Property="MinHeight" Value="25"/>
     </Style>
-    <Style TargetType="grid:GroupHeaderRow" BasedOn="{StaticResource GroupHeaderRowStyle}"/>
+    <!--<Style TargetType="grid:GroupHeaderRow" BasedOn="{StaticResource GroupHeaderRowStyle}"/>-->
     <DataTemplate x:Key="GridViewHeaderIndentCellDataTemplate">
         <grid:GridViewHeaderIndentCell/>
     </DataTemplate>
@@ -2592,7 +2592,7 @@
         <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
         <Setter Property="Padding" Value="0"/>
     </Style>
-    <Style TargetType="grid:GridViewHeaderRow" BasedOn="{StaticResource GridViewHeaderRowStyle}"/>
+    <!--<Style TargetType="grid:GridViewHeaderRow" BasedOn="{StaticResource GridViewHeaderRowStyle}"/>-->
     <DataTemplate x:Key="GridViewFooterIndentCellDataTemplate">
         <grid:GridViewFooterIndentCell/>
     </DataTemplate>
@@ -2650,7 +2650,7 @@
         <Setter Property="VerticalContentAlignment" Value="Stretch"/>
         <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
     </Style>
-    <Style TargetType="grid:GridViewFooterRow" BasedOn="{StaticResource GridViewFooterRowStyle}"/>
+    <!--<Style TargetType="grid:GridViewFooterRow" BasedOn="{StaticResource GridViewFooterRowStyle}"/>-->
     <DataTemplate x:Key="GridViewGroupFooterIndentCellDataTemplate">
         <grid:GridViewGroupFooterIndentCell/>
     </DataTemplate>
@@ -2709,7 +2709,7 @@
         <Setter Property="VerticalContentAlignment" Value="Stretch"/>
         <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
     </Style>
-    <Style TargetType="grid:GridViewGroupFooterRow" BasedOn="{StaticResource GridViewGroupFooterRowStyle}"/>
+    <!--<Style TargetType="grid:GridViewGroupFooterRow" BasedOn="{StaticResource GridViewGroupFooterRowStyle}"/>-->
     <ControlTemplate x:Key="GridViewCheckBoxTemplate" TargetType="grid:GridViewCheckBox">
         <Grid HorizontalAlignment="Left" VerticalAlignment="Center" Width="13" Height="13">
             <VisualStateManager.VisualStateGroups>
@@ -2773,7 +2773,7 @@
     <Style x:Key="GridViewCheckBoxStyle" TargetType="grid:GridViewCheckBox">
         <Setter Property="Template" Value="{StaticResource GridViewCheckBoxTemplate}"/>
     </Style>
-    <Style TargetType="grid:GridViewCheckBox" BasedOn="{StaticResource GridViewCheckBoxStyle}"/>
+    <!--<Style TargetType="grid:GridViewCheckBox" BasedOn="{StaticResource GridViewCheckBoxStyle}"/>-->
     <ControlTemplate x:Key="GridViewDataControlTemplate" TargetType="grid:GridViewDataControl">
         <Border x:Name="PART_MasterGridContainer"
                 Background="{TemplateBinding Background}"
@@ -2913,7 +2913,7 @@
         <Setter Property="AlternateRowBackground" Value="#19767676"/>
         <Setter Property="GridLinesVisibility" Value="None"/>
     </Style>
-    <Style TargetType="grid:GridViewDataControl" BasedOn="{StaticResource GridViewDataControlStyle}"/>
+    <!--<Style TargetType="grid:GridViewDataControl" BasedOn="{StaticResource GridViewDataControlStyle}"/>-->
     <ControlTemplate x:Key="GridViewEditorPresenter_ValidationToolTipTemplate" TargetType="ToolTip">
         <Grid x:Name="Root" Margin="2 0" Opacity="0" RenderTransformOrigin="0 0">
             <VisualStateManager.VisualStateGroups>
@@ -3023,7 +3023,7 @@
         <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
         <Setter Property="Padding" Value="2"/>
     </Style>
-    <Style TargetType="grid:GridViewEditorPresenter" BasedOn="{StaticResource GridViewEditorPresenterStyle}"/>
+    <!--<Style TargetType="grid:GridViewEditorPresenter" BasedOn="{StaticResource GridViewEditorPresenterStyle}"/>-->
     <ControlTemplate x:Key="GridViewToggleButtonTemplate" TargetType="controls:GridViewToggleButton">
         <Border Background="Transparent" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
             <VisualStateManager.VisualStateGroups>
@@ -3168,7 +3168,7 @@
         <Setter Property="PlusMinusTemplate" Value="{StaticResource GridViewToggleButtonTemplate}"/>
         <Setter Property="ArrowTemplate" Value="{StaticResource GridViewToggleButtonArrowTemplate}"/>
     </Style>
-    <Style TargetType="controls:GridViewToggleButton" BasedOn="{StaticResource GridViewToggleButtonStyle}"/>
+    <!--<Style TargetType="controls:GridViewToggleButton" BasedOn="{StaticResource GridViewToggleButtonStyle}"/>-->
     <ControlTemplate x:Key="GridViewGroupPanelTemplate" TargetType="grid:GridViewGroupPanel">
         <Border BorderBrush="{TemplateBinding BorderBrush}" UseLayoutRounding="True" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}">
             <VisualStateManager.VisualStateGroups>
@@ -3227,7 +3227,7 @@
         <Setter Property="VerticalContentAlignment" Value="Center"/>
         <Setter Property="HorizontalContentAlignment" Value="Left"/>
     </Style>
-    <Style TargetType="grid:GridViewGroupPanel" BasedOn="{StaticResource GridViewGroupPanelStyle}"/>
+    <!--<Style TargetType="grid:GridViewGroupPanel" BasedOn="{StaticResource GridViewGroupPanelStyle}"/>-->
     <ControlTemplate x:Key="CloseButtonTemplate" TargetType="Button">
         <Border x:Name="CloseButton" Background="{TemplateBinding Background}">
             <VisualStateManager.VisualStateGroups>
@@ -3404,7 +3404,7 @@
         <Setter Property="Foreground" Value="{StaticResource MainBrush}"/>
         <Setter Property="FontFamily" Value="Segoe UI Semibold"/>
     </Style>
-    <Style TargetType="grid:GridViewGroupPanelCell" BasedOn="{StaticResource GridViewGroupPanelCellStyle}"/>
+    <!--<Style TargetType="grid:GridViewGroupPanelCell" BasedOn="{StaticResource GridViewGroupPanelCellStyle}"/>-->
     <telerik:InvertedBooleanToOpacityConverter x:Key="InvertedBooleanToOpacityConverter"/>
     <ControlTemplate x:Key="GridViewGroupPanelItemTemplate" TargetType="grid:GridViewGroupPanelItem">
         <StackPanel x:Name="PART_GroupPanelItemStackPanel"
@@ -3464,7 +3464,7 @@
         <Setter Property="VerticalContentAlignment" Value="Stretch"/>
         <Setter Property="HorizontalContentAlignment" Value="Left"/>
     </Style>
-    <Style TargetType="grid:GridViewGroupPanelItem" BasedOn="{StaticResource GridViewGroupPanelItemStyle}"/>
+    <!--<Style TargetType="grid:GridViewGroupPanelItem" BasedOn="{StaticResource GridViewGroupPanelItemStyle}"/>-->
     <ControlTemplate x:Key="GridViewLoadingIndicatorTemplate" TargetType="grid:GridViewLoadingIndicator">
         <telerik:RadBusyIndicator
                 IsBusy="{TemplateBinding IsBusy}"
@@ -3478,7 +3478,7 @@
         <Setter Property="VerticalContentAlignment" Value="Center"/>
         <Setter Property="HorizontalContentAlignment" Value="Center"/>
     </Style>
-    <Style TargetType="grid:GridViewLoadingIndicator" BasedOn="{StaticResource GridViewLoadingIndicatorStyle}"/>
+    <!--<Style TargetType="grid:GridViewLoadingIndicator" BasedOn="{StaticResource GridViewLoadingIndicatorStyle}"/>-->
     <ControlTemplate x:Key="GridViewScrollViewerTemplate" TargetType="grid:GridViewScrollViewer">
         <Grid x:Name="PART_RootPanel">
             <Grid.ColumnDefinitions>
@@ -3520,7 +3520,7 @@
     <Style x:Key="GridViewScrollViewerStyle" TargetType="grid:GridViewScrollViewer">
         <Setter Property="Template" Value="{StaticResource GridViewScrollViewerTemplate}"/>
     </Style>
-    <Style TargetType="grid:GridViewScrollViewer" BasedOn="{StaticResource GridViewScrollViewerStyle}"/>
+    <!--<Style TargetType="grid:GridViewScrollViewer" BasedOn="{StaticResource GridViewScrollViewerStyle}"/>-->
     <ControlTemplate x:Key="IndentPresenterTemplate" TargetType="grid:IndentPresenter">
         <Grid>
             <ItemsPresenter/>
@@ -3537,7 +3537,7 @@
         <Setter Property="ItemTemplate" Value="{StaticResource IndentPresenterItemTemplate}"/>
         <Setter Property="ItemsPanel" Value="{StaticResource IndentPresenterItemsPanelTemplate}"/>
     </Style>
-    <Style TargetType="grid:IndentPresenter" BasedOn="{StaticResource IndentPresenterStyle}"/>
+    <!--<Style TargetType="grid:IndentPresenter" BasedOn="{StaticResource IndentPresenterStyle}"/>-->
     <ControlTemplate x:Key="RadGridViewTemplate" TargetType="controls:RadGridView">
         <Grid>
             <VisualStateManager.VisualStateGroups>
@@ -3749,7 +3749,7 @@
                                 <StackPanel/>
                             </ItemsPanelTemplate>
                         </telerik:RadListBox.ItemsPanel>
-                        <telerik:RadListBox.ItemContainerStyle>
+                        <!--<telerik:RadListBox.ItemContainerStyle>
                             <Style TargetType="telerik:RadListBoxItem">
                                 <Setter Property="Padding" Value="3"/>
                                 <Setter Property="Template">
@@ -3760,7 +3760,7 @@
                                     </Setter.Value>
                                 </Setter>
                             </Style>
-                        </telerik:RadListBox.ItemContainerStyle>
+                        </telerik:RadListBox.ItemContainerStyle>-->
                     </telerik:RadListBox>
                 </telerik:RadDropDownButton.DropDownContent>
             </telerik:RadDropDownButton>
@@ -3834,7 +3834,7 @@
         <Setter Property="VerticalAlignment" Value="Stretch"/>
         <Setter Property="HorizontalAlignment" Value="Stretch"/>
     </Style>
-    <Style TargetType="controls:RadGridView" BasedOn="{StaticResource RadGridViewStyle}"/>
+    <!--<Style TargetType="controls:RadGridView" BasedOn="{StaticResource RadGridViewStyle}"/>-->
     <Style x:Key="TreeListViewDragCueStyle" TargetType="controls:TreeListViewDragCue">
         <Setter Property="IsHitTestVisible" Value="False"/>
         <Setter Property="Foreground" Value="{StaticResource MainBrush}"/>
@@ -3969,7 +3969,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="controls:TreeListViewDragCue" BasedOn="{StaticResource TreeListViewDragCueStyle}"/>
+    <!--<Style TargetType="controls:TreeListViewDragCue" BasedOn="{StaticResource TreeListViewDragCueStyle}"/>-->
     <ControlTemplate x:Key="RadTreeListViewTemplate" TargetType="controls:RadTreeListView">
         <Grid>
             <VisualStateManager.VisualStateGroups>
@@ -4204,7 +4204,7 @@
         <Setter Property="VerticalAlignment" Value="Stretch"/>
         <Setter Property="HorizontalAlignment" Value="Stretch"/>
     </Style>
-    <Style TargetType="controls:RadTreeListView" BasedOn="{StaticResource RadTreeListViewStyle}"/>
+    <!--<Style TargetType="controls:RadTreeListView" BasedOn="{StaticResource RadTreeListViewStyle}"/>-->
     <ControlTemplate x:Key="TreeListViewRow_ValidationToolTipTemplate" TargetType="ToolTip">
         <Grid x:Name="Root" Margin="2 0" Opacity="0" Background="Transparent" RenderTransformOrigin="0 0">
             <VisualStateManager.VisualStateGroups>
@@ -4449,9 +4449,9 @@
                         IsChecked="{Binding IsExpanded, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}"
                         Width="20">
                     <controls:GridViewToggleButton.Style>
-                        <Style TargetType="controls:GridViewToggleButton" BasedOn="{StaticResource GridViewToggleButtonStyle}">
+                        <!--<Style TargetType="controls:GridViewToggleButton" BasedOn="{StaticResource GridViewToggleButtonStyle}">
                             <Setter Property="PresentationMode" Value="Arrow"/>
-                        </Style>
+                        </Style>-->
                     </controls:GridViewToggleButton.Style>
                 </controls:GridViewToggleButton>
                 <grid:DetailsPresenter x:Name="PART_DetailsPresenter" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="1" Visibility="Collapsed" DetailsProvider="{TemplateBinding DetailsProvider}"/>
@@ -4550,7 +4550,7 @@
         <Setter Property="Padding" Value="0"/>
         <Setter Property="BorderThickness" Value="0"/>
     </Style>
-    <Style TargetType="treelist:TreeListViewRow" BasedOn="{StaticResource TreeListViewRowStyle}"/>
+    <!--<Style TargetType="treelist:TreeListViewRow" BasedOn="{StaticResource TreeListViewRowStyle}"/>-->
     <ControlTemplate x:Key="NonEditableComboBox" TargetType="input:RadComboBox">
         <Grid x:Name="VisualRoot">
             <ContentPresenter x:Name="Content"
@@ -4587,7 +4587,7 @@
         <Setter Property="VerticalContentAlignment" Value="Center"/>
         <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
     </Style>
-    <Style TargetType="grid:LookupElement" BasedOn="{StaticResource LookupElementStyle}"/>
+    <!--<Style TargetType="grid:LookupElement" BasedOn="{StaticResource LookupElementStyle}"/>-->
     <ControlTemplate x:Key="ScrollPositionIndicatorTemplate" TargetType="grid:ScrollPositionIndicator">
         <Border
                 HorizontalAlignment="Right"
@@ -4614,7 +4614,7 @@
         <Setter Property="HorizontalContentAlignment" Value="Left"/>
         <Setter Property="Padding" Value="15 5"/>
     </Style>
-    <Style TargetType="grid:ScrollPositionIndicator" BasedOn="{StaticResource ScrollPositionIndicatorStyle}"/>
+    <!--<Style TargetType="grid:ScrollPositionIndicator" BasedOn="{StaticResource ScrollPositionIndicatorStyle}"/>-->
     <ControlTemplate x:Key="GridViewCellCoreTemplate" TargetType="grid:GridViewCell">
         <Grid>
             <VisualStateManager.VisualStateGroups>
@@ -5565,11 +5565,11 @@
                         IsTabStop="False"
                         IsChecked="{Binding IsExpanded, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}"
                         Width="20">
-                    <controls:GridViewToggleButton.Style>
+                    <!--<controls:GridViewToggleButton.Style>
                         <Style TargetType="controls:GridViewToggleButton" BasedOn="{StaticResource GridViewToggleButtonStyle}">
                             <Setter Property="PresentationMode" Value="Arrow"/>
                         </Style>
-                    </controls:GridViewToggleButton.Style>
+                    </controls:GridViewToggleButton.Style>-->
                 </controls:GridViewToggleButton>
                 <grid:DataCellsPresenter x:Name="PART_DataCellsPresenter" Grid.ColumnSpan="2" Grid.Column="1">
                     <grid:DataCellsPresenter.ItemsPanel>

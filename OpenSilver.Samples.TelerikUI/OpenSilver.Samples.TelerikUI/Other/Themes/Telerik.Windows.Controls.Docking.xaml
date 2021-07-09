@@ -444,7 +444,7 @@
         <Setter Property="LeftTemplate" Value="{StaticResource AutoHideAreaLeftTemplate}"/>
         <Setter Property="ItemsPanel" Value="{StaticResource AutoHideAreaItemsPanelTemplate}"/>
     </Style>
-   <Style TargetType="dock:AutoHideArea" BasedOn="{StaticResource AutoHideAreaStyle}"/>
+   <!--<Style TargetType="dock:AutoHideArea" BasedOn="{StaticResource AutoHideAreaStyle}"/>-->
 
     <ControlTemplate x:Key="TabItemContentPresenterControlTemplate" TargetType="telerikNavigationPrimitives:TabItemContentPresenter">
         <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}">
@@ -751,8 +751,8 @@
         <Setter Property="DocumentHostTemplate" Value="{StaticResource RadPaneDocumentHostTemplate}"/>
         <Setter Property="ContextMenuTemplate" Value="{StaticResource RadPaneContextMenuTemplate}"/>
     </Style>
-    <Style TargetType="local:RadPane" BasedOn="{StaticResource RadPaneStyle}"/>
-    <Style TargetType="local:RadDocumentPane" BasedOn="{StaticResource RadPaneStyle}"/>
+    <!--<Style TargetType="local:RadPane" BasedOn="{StaticResource RadPaneStyle}"/>
+    <Style TargetType="local:RadDocumentPane" BasedOn="{StaticResource RadPaneStyle}"/>-->
 
     <ControlTemplate x:Key="DraggedElementVisualCueTemplate">
         <Grid>
@@ -770,7 +770,7 @@
             </Border>
         </Grid>
     </ControlTemplate>
-    <Style TargetType="dock:DraggedElementVisualCue">
+    <!--<Style TargetType="dock:DraggedElementVisualCue">
         <Setter Property="Foreground" Value="{StaticResource MainBrush}"/>
         <Setter Property="Background" Value="{StaticResource AccentBrush}"/>
         <Setter Property="BorderBrush" Value="{StaticResource AccentBrush}"/>
@@ -778,7 +778,7 @@
         <Setter Property="FontSize" Value="12"/>
         <Setter Property="Padding" Value="8 2"/>
         <Setter Property="Template" Value="{StaticResource DraggedElementVisualCueTemplate}"/>
-    </Style>
+    </Style>-->
 
     <Style x:Key="GridResizerPreviewStyle" TargetType="Control">
         <Setter Property="Background" Value="{StaticResource StrongBrush}"/>
@@ -815,7 +815,7 @@
         <Setter Property="Template" Value="{StaticResource RadGridResizerControlTemplate}"/>
         <Setter Property="Canvas.ZIndex" Value="100"/>
     </Style>
-    <Style TargetType="dock:RadGridResizer" BasedOn="{StaticResource RadGridResizerStyle}"/>
+    <!--<Style TargetType="dock:RadGridResizer" BasedOn="{StaticResource RadGridResizerStyle}"/>-->
 
 
     <Style x:Key="RadSplitContainerStyle" TargetType="local:RadSplitContainer">
@@ -982,7 +982,7 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="local:RadSplitContainer" BasedOn="{StaticResource RadSplitContainerStyle}"/>
+    <!--<Style TargetType="local:RadSplitContainer" BasedOn="{StaticResource RadSplitContainerStyle}"/>-->
     
     
     <ControlTemplate x:Key="PaneHeaderControlTemplate" TargetType="dock:PaneHeader">
@@ -1089,7 +1089,7 @@
             </Setter.Value>
         </Setter>-->
     </Style>
-    <Style TargetType="dock:PaneHeader" BasedOn="{StaticResource PaneHeaderStyle}"/>
+    <!--<Style TargetType="dock:PaneHeader" BasedOn="{StaticResource PaneHeaderStyle}"/>-->
 
 
     <ControlTemplate x:Key="RadPaneGroupDocumentHostControlTemplate" TargetType="local:RadPaneGroup">
@@ -1552,7 +1552,7 @@
         <Setter Property="MinHeight" Value="15"/>
         <Setter Property="Padding" Value="2"/>
     </Style>
-    <Style TargetType="local:RadPaneGroup" BasedOn="{StaticResource RadPaneGroupStyle}"/>
+    <!--<Style TargetType="local:RadPaneGroup" BasedOn="{StaticResource RadPaneGroupStyle}"/>-->
 
     <ControlTemplate x:Key="ToolWindowControlTemplate" TargetType="dock:ToolWindow">
         <Border x:Name="VisualRoot" Background="{TemplateBinding Background}" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}">
@@ -1616,7 +1616,7 @@
         <Setter Property="Padding" Value="2"/>
         <Setter Property="Template" Value="{StaticResource ToolWindowControlTemplate}"/>
     </Style>
-    <Style TargetType="dock:ToolWindow" BasedOn="{StaticResource ToolWindowStyle}"/>
+    <!--<Style TargetType="dock:ToolWindow" BasedOn="{StaticResource ToolWindowStyle}"/>-->
 
 
     <ControlTemplate x:Key="CompassControlTemplate" TargetType="dock:Compass">
@@ -1936,10 +1936,10 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style TargetType="dock:Compass" BasedOn="{StaticResource CompassStyle}"/>
+    <!--<Style TargetType="dock:Compass" BasedOn="{StaticResource CompassStyle}"/>
     <Style TargetType="dock:RootCompass" BasedOn="{StaticResource RootCompassStyle}"/>
     <Style TargetType="dock:VisualCue" BasedOn="{StaticResource VisualCueStyle}"/>
-    <Style TargetType="dock:DocumentHost" BasedOn="{StaticResource DocumentHostStyle}"/>
+    <Style TargetType="dock:DocumentHost" BasedOn="{StaticResource DocumentHostStyle}"/>-->
 
 
 
@@ -2019,5 +2019,5 @@
         <Setter Property="Background" Value="{StaticResource MainBrush}"/>
     </Style>
 
-    <Style TargetType="local:RadDocking" BasedOn="{StaticResource RadDockingStyle}"/>
+    <!--<Style TargetType="local:RadDocking" BasedOn="{StaticResource RadDockingStyle}"/>-->
 </ResourceDictionary>
