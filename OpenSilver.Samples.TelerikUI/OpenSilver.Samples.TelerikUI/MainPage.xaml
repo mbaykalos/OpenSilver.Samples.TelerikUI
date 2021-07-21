@@ -32,11 +32,11 @@
                 Telerik UI compiled<LineBreak/>with OpenSilver
                             </TextBlock>
                         </StackPanel>
-                        <Button Content="Supported" Click="Supported_Click" Background="{x:Null}" Foreground="#FFDDDDDD" HorizontalContentAlignment="Left" FontSize="16" Margin="0,10,0,0" Padding="20,3,3,3"/>
-                        <Button Content="Supported via Kendo" Click="SupportedViaKendoUI_Click" Background="{x:Null}" Foreground="#FFDDDDDD" HorizontalContentAlignment="Left" FontSize="16" Margin="0,10,0,0" Padding="20,3,3,3"/>
-                        <Button Content="In Progress" Click="Inprogress_Click" Background="{x:Null}" Foreground="#FFDDDDDD" HorizontalContentAlignment="Left" FontSize="16" Margin="0,3,0,0" Padding="20,3,3,3"/>
-                        <Button Content="Broken" Click="Broken_Click" Background="{x:Null}" Foreground="#FFDDDDDD" HorizontalContentAlignment="Left" FontSize="16" Margin="0,3,0,0" Padding="20,3,3,3"/>
-                        <Button Content="Home" Click="ButtonHome_Click" Background="{x:Null}" Foreground="#FFDDDDDD" HorizontalContentAlignment="Left" FontSize="16" Margin="0,3,0,0" Padding="20,3,3,3"/>
+                        <Button Content="Supported" Click="Supported_Click" Style="{StaticResource FlatButtonStyle}" Background="{x:Null}" Foreground="#FFDDDDDD" HorizontalContentAlignment="Left" FontSize="16" Margin="0,10,0,0" Padding="20,3,3,3"/>
+                        <Button Content="Supported via Kendo" Click="SupportedViaKendoUI_Click"  Style="{StaticResource FlatButtonStyle}" Background="{x:Null}" Foreground="#FFDDDDDD" HorizontalContentAlignment="Left" FontSize="16" Margin="0,10,0,0" Padding="20,3,3,3"/>
+                        <Button Content="In Progress" Click="Inprogress_Click"  Style="{StaticResource FlatButtonStyle}" Background="{x:Null}" Foreground="#FFDDDDDD" HorizontalContentAlignment="Left" FontSize="16" Margin="0,3,0,0" Padding="20,3,3,3"/>
+                        <Button Content="Broken" Click="Broken_Click"  Style="{StaticResource FlatButtonStyle}" Background="{x:Null}" Foreground="#FFDDDDDD" HorizontalContentAlignment="Left" FontSize="16" Margin="0,3,0,0" Padding="20,3,3,3"/>
+                        <Button Content="Home" Click="ButtonHome_Click"  Style="{StaticResource FlatButtonStyle}" Background="{x:Null}" Foreground="#FFDDDDDD" HorizontalContentAlignment="Left" FontSize="16" Margin="0,3,0,0" Padding="20,3,3,3"/>
                     </StackPanel>
                 </ScrollViewer>
             </Border>

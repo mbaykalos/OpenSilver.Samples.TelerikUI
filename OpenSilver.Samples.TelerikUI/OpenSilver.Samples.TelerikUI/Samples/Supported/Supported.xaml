@@ -13,6 +13,8 @@
             <local:RadPathButton_Demo HorizontalAlignment="Center"/>
             <local:RadRadioButton_Demo HorizontalAlignment="Center"/>
             <local:RadToggleButton_Demo HorizontalAlignment="Center"/>
+            <local:RadNumericUpDown_Demo HorizontalAlignment="Center"/>
+            <local:RadContextMenu_Demo HorizontalAlignment="Center"/>
             <local:RadDockPanel_Demo HorizontalAlignment="Center"/>
         </local:MasonryPanelWithProgressiveLoading>
     </StackPanel>

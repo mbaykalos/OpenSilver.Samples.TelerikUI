@@ -1,22 +1,20 @@
 ﻿<UserControl
-    x:Class="OpenSilver.Samples.TelerikUI.RadBusyIndicator_Demo"
+    x:Class="OpenSilver.Samples.TelerikUI.RadAlert_Demo"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="clr-namespace:OpenSilver.Samples.TelerikUI"
-           xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
-    xmlns:controls="using:Telerik.Windows.Controls">
+    xmlns:controls="using:Telerik.Windows.Controls"
+    xmlns:local="clr-namespace:OpenSilver.Samples.TelerikUI">
 
-    <ContentControl Style="{StaticResource Card_Style}" Height="210" Width="180">
+    <ContentControl Style="{StaticResource Card_Style}" Height="210" Width="300">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            <ContentControl Content="Rad Busy Indicator" Foreground="#FFD59851" Background="#FFBFA383" Style="{StaticResource HeaderControl_Style}"/>
+            <ContentControl Content="Rad Alert" Foreground="#FFD59851" Background="#FFBFA383" Style="{StaticResource HeaderControl_Style}"/>
             <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <controls:RadBusyIndicator x:Name="BusyLoading" telerik:StyleManager.Theme="Windows8" Grid.Row="1" IsIndeterminate="True" IsBusy="True" Background="{x:Null}"/>
-
+                <controls:RadAlert Content="Test"/>
             </StackPanel>
 
             <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FF6F7DFF" Style="{StaticResource ButtonViewSource_Style}"/>
