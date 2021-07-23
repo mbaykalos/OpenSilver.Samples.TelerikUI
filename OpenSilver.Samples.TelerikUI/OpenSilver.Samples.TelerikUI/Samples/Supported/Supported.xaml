@@ -16,6 +16,8 @@
             <local:RadNumericUpDown_Demo HorizontalAlignment="Center"/>
             <local:RadContextMenu_Demo HorizontalAlignment="Center"/>
             <local:RadDockPanel_Demo HorizontalAlignment="Center"/>
+            <local:RadListBox_Demo HorizontalAlignment="Center"/>
+            <local:RadGallery_Demo HorizontalAlignment="Center"/>
         </local:MasonryPanelWithProgressiveLoading>
     </StackPanel>
 </UserControl>

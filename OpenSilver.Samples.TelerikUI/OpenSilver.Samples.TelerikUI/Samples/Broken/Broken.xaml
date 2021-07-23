@@ -8,9 +8,6 @@
         <TextBlock Text="Broken Controls" Style="{StaticResource PageHeader_Style}"/>
         <local:MasonryPanelWithProgressiveLoading Style="{StaticResource Panel_Style}">
             <local:GroupBox_Demo HorizontalAlignment="Center"/>
-            <local:RadColorPicker_Demo HorizontalAlignment="Center"/>
-            <local:RadListBox_Demo HorizontalAlignment="Center"/>
-            <local:RadGallery_Demo HorizontalAlignment="Center"/>
             <local:RadTimePicker_Demo HorizontalAlignment="Center"/>
             <local:RadWrapPanel_Demo HorizontalAlignment="Center"/>
             <local:RadCalendar_Demo HorizontalAlignment="Center"/>
