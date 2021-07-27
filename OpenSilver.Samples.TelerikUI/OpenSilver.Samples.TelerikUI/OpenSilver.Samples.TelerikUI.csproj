@@ -305,7 +305,7 @@
 
   <ItemGroup>
     <PackageReference Include="OpenSilver.Compatibility.TelerikUI" Version="1.0.0-alpha-002" />
-    <PackageReference Include="OpenSilver.WorkInProgress" Version="1.0.0-private-25" />
+    <PackageReference Include="OpenSilver.WorkInProgress" Version="1.0.0-alpha-020" />
   </ItemGroup>
 
 </Project>

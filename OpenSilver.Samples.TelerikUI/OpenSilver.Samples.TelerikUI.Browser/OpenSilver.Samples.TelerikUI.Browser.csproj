@@ -6,7 +6,7 @@
     <SccLocalPath>SAK</SccLocalPath>
     <Configurations>Debug;Release;</Configurations>
     <NoXamlPreprocessor>True</NoXamlPreprocessor>
-    <OpenSilverType>3</OpenSilverType>
+    <OpenSilverType>4</OpenSilverType>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -22,8 +22,8 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <!--<OutputPath>bin\Release\</OutputPath>-->
-    <DefineConstants>TRACE;OPENSILVER</DefineConstants>
+	  <!--<OutputPath>bin\Release\</OutputPath>-->
+	  <DefineConstants>TRACE;OPENSILVER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoStdLib>true</NoStdLib>
@@ -64,7 +64,7 @@
     <None Remove="EmptyOpenSilverMigrationApplication.Browser.csproj.vspscc" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="OpenSilver.WorkInProgress" Version="1.0.0-private-25" />
+    <PackageReference Include="OpenSilver.WorkInProgress" Version="1.0.0-alpha-020" />
 	  <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.0-preview.5.*" />
 	  <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.0-preview.5.*" PrivateAssets="all" />
   </ItemGroup>
