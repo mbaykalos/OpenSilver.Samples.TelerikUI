@@ -12,7 +12,7 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            <ContentControl Content="Rad Button" Foreground="#FFD59851" Background="#FFBFA383" Style="{StaticResource HeaderControl_Style}"/>
+            <ContentControl Content="Rad Schedule View" Foreground="#FFD59851" Background="#FFBFA383" Style="{StaticResource HeaderControl_Style}"/>
             <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <controls:RadScheduleView  Width="150"/>
             </StackPanel>

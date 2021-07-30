@@ -82,12 +82,12 @@ namespace OpenSilver.Samples.TelerikUI
                 new ViewSourceButtonInfo()
                 {
                     TabHeader = "RadCartesianChart_Demo.xaml",
-                    FilePathOnGitHub = "github.com/OpenSilver/OpenSilver.Samples.TelerikUI/blob/master/OpenSilver.Samples.TelerikUI/OpenSilver.Samples.TelerikUI/Samples/Supported/RadCartesianChart/RadCartesianChart_Demo.xaml"
+                    FilePathOnGitHub = "github.com/OpenSilver/OpenSilver.Samples.TelerikUI/blob/master/OpenSilver.Samples.TelerikUI/OpenSilver.Samples.TelerikUI/Samples/Broken/RadCartesianChart/RadCartesianChart_Demo.xaml"
                 },
                 new ViewSourceButtonInfo()
                 {
                      TabHeader = "RadCartesianChart_Demo.xaml.cs",
-                     FilePathOnGitHub = "github.com/OpenSilver/OpenSilver.Samples.TelerikUI/blob/master/OpenSilver.Samples.TelerikUI/OpenSilver.Samples.TelerikUI/Samples/Supported/RadCartesianChart/RadCartesianChart_Demo.xaml.cs"
+                     FilePathOnGitHub = "github.com/OpenSilver/OpenSilver.Samples.TelerikUI/blob/master/OpenSilver.Samples.TelerikUI/OpenSilver.Samples.TelerikUI/Samples/Broken/RadCartesianChart/RadCartesianChart_Demo.xaml.cs"
                 }
             });
         }

@@ -28,7 +28,7 @@
                 <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
                     <StackPanel Margin="0,20,0,0">
                         <StackPanel Orientation="Vertical" Margin="1">
-                            <TextBlock x:Name="TitleTextBlock" FontFamily="Segoe UI" TextAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#FF00C6D2" FontSize="17">
+                            <TextBlock x:Name="TitleTextBlock" FontFamily="Segoe UI" TextAlignment="Center" VerticalAlignment="Center" Foreground="#FF00C6D2" FontSize="17">
                 Telerik UI compiled<LineBreak/>with OpenSilver
                             </TextBlock>
                         </StackPanel>

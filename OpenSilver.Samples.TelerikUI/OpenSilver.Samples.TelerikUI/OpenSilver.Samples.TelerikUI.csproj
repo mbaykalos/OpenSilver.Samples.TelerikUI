@@ -45,17 +45,17 @@
 	  <None Remove="Samples\Broken\RadScheduleView\RadScheduleView_Demo.xaml" />
 	  <None Remove="Samples\Broken\RadTimePicker\RadTimePicker_Demo.xaml" />
 	  <None Remove="Samples\Broken\RadToolBar\RadToolBar_Demo.xaml" />
-	  <None Remove="Samples\Broken\RadTreeView\RadTreeView_Demo.xaml" />
+	  <None Remove="Samples\InProgress\RadTreeView\RadTreeView_Demo.xaml" />
 	  <None Remove="Samples\Broken\RadTreeListView\RadTreeListView_Demo.xaml" />
 	  <None Remove="Samples\Broken\RadWrapPanel\RadWrapPanel_Demo.xaml" />
     <None Remove="Samples\Supported\RadContextMenu\RadContextMenu_Demo.xaml" />
     <None Remove="Samples\Supported\RadNumericUpDown\RadNumericUpDown_Demo.xaml" />
 	  <None Remove="Samples\Broken\RadPanelBar\RadPanelBar_Demo.xaml" />
-	  <None Remove="Samples\Broken\RadAlert\RadAlert_Demo.xaml" />
+	  <None Remove="Samples\InProgress\RadAlert\RadAlert_Demo.xaml" />
     <None Remove="Samples\Broken\RadRichTextBox\RadRichTextBox_Demo.xaml" />
     <None Remove="Samples\InProgress\RadComboBox\RadComboBox_Demo.xaml" />
     <None Remove="Samples\InProgress\RadDocking\RadDocking_Demo.xaml" />
-    <None Remove="Samples\Broken\RadGridView\RadGridView_Demo.xaml" />
+    <None Remove="Samples\InProgress\RadGridView\RadGridView_Demo.xaml" />
     <None Remove="Samples\SupportedViaKendoUI\RadGridViewViaKendoUI\RadGridViewViaKendoUI_Demo.xaml" />
     <None Remove="Samples\SupportedViaKendoUI\SupportedViaKendoUI.xaml" />
     <None Remove="Samples\Supported\RadDockPanel\RadDockPanel_Demo.xaml" />
@@ -160,7 +160,7 @@
 	  <Content Include="Samples\Broken\RadToolBar\RadToolBar_Demo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Include="Samples\Broken\RadTreeView\RadTreeView_Demo.xaml">
+	  <Content Include="Samples\InProgress\RadTreeView\RadTreeView_Demo.xaml">
 		  <Generator>MSBuild:Compile</Generator>
 	  </Content>
 	  <Content Include="Samples\Broken\RadTreeListView\RadTreeListView_Demo.xaml">
@@ -172,7 +172,7 @@
     <Content Include="Samples\Supported\RadContextMenu\RadContextMenu_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\Broken\RadGridView\RadGridView_Demo.xaml">
+    <Content Include="Samples\InProgress\RadGridView\RadGridView_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
     <Content Include="Samples\Supported\RadNumericUpDown\RadNumericUpDown_Demo.xaml">
@@ -181,7 +181,7 @@
     <Content Include="Samples\Broken\RadPanelBar\RadPanelBar_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-	  <Content Include="Samples\Broken\RadAlert\RadAlert_Demo.xaml">
+	  <Content Include="Samples\InProgress\RadAlert\RadAlert_Demo.xaml">
 		  <Generator>MSBuild:Compile</Generator>
 	  </Content>
     <Content Include="Samples\Broken\RadRichTextBox\RadRichTextBox_Demo.xaml">
@@ -304,7 +304,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="OpenSilver.Compatibility.TelerikUI" Version="1.0.0-alpha-002" />
+    <PackageReference Include="OpenSilver.Compatibility.TelerikUI" Version="0.1.0-alpha-002" />
     <PackageReference Include="OpenSilver.WorkInProgress" Version="1.0.0-alpha-020" />
   </ItemGroup>
 
