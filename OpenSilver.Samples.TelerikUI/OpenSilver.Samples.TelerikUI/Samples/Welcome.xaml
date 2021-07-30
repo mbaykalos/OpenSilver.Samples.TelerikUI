@@ -22,9 +22,9 @@
             </TextBlock>
 
             <TextBlock FontSize="16" Foreground="#FF333333" TextWrapping="Wrap" Margin="22,10,0,0">
-                    <Span xml:space="preserve"><Run>2. The OpenSilver Silverlight Migration Accelerator Package, which is available at: </Run>
-                     <Hyperlink FontSize="16" Foreground="Blue" NavigateUri="https://www.opensilver.net/links/migration-package.aspx" Cursor="Hand">
-                         https://www.opensilver.net/links/migration-package.aspx
+                    <Span xml:space="preserve"><Run>2. A license for the OpenSilver Compatibility Pack for Telerik UI. To buy it, please contact us at: </Run>
+                     <Hyperlink FontSize="16" Foreground="Blue" NavigateUri="https://opensilver.net/contact.aspx" Cursor="Hand">
+                         https://opensilver.net/contact.aspx
                      </Hyperlink>
                     </Span>
             </TextBlock>
