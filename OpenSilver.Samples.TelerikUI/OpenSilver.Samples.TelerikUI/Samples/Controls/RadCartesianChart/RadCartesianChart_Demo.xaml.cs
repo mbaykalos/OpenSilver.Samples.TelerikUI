@@ -15,6 +15,7 @@ namespace OpenSilver.Samples.TelerikUI
 {
     public partial class RadCartesianChart_Demo : UserControl
     {
+        /*
         public class DTPoint
         {
             public DateTime XValue { get; set; }
@@ -74,7 +75,7 @@ namespace OpenSilver.Samples.TelerikUI
             }
             return serie;
         }
-
+        */
         private void ButtonViewSource_Click(object sender, RoutedEventArgs e)
         {
             ViewSourceButtonHelper.ViewSource(new List<ViewSourceButtonInfo>()

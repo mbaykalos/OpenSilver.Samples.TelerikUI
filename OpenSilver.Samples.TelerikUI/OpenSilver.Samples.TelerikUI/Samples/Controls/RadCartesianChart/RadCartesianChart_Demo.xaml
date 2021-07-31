@@ -15,7 +15,8 @@
             </Grid.RowDefinitions>
             <ContentControl Content="Rad Cartesian chart" Foreground="#FFD59851" Background="#FFBFA383" Style="{StaticResource HeaderControl_Style}"/>
             <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <telerik:RadCartesianChart x:Name="ReferenceGraph" HorizontalAlignment="Left" Margin="10,18,0,0" Background="Gray" VerticalAlignment="Top" Height="400" Width="730" BorderThickness="0" Visibility="Visible">
+                <!--Commented out because it causes an exception-->
+                <!--<telerik:RadCartesianChart x:Name="ReferenceGraph" HorizontalAlignment="Left" Margin="10,18,0,0" Background="Gray" VerticalAlignment="Top" Height="400" Width="730" BorderThickness="0" Visibility="Visible">
                     <telerik:RadCartesianChart.Grid>
                         <telerik:CartesianChartGrid MajorYLineDashArray="5, 2" MajorLinesVisibility="Y" MajorYLinesRenderMode="All" >
                             <telerik:CartesianChartGrid.MajorYLineStyle>
@@ -76,7 +77,7 @@
                         </telerik:AreaSeries.TrackBallInfoTemplate>
                     </charts:AreaSeries>
                 </telerik:RadCartesianChart>
-                <Button Content="Apply Non-Graphic Selection Method" Margin="0,20,0,0" Click="Button_Click" HorizontalAlignment="Left"/>
+                <Button Content="Apply Non-Graphic Selection Method" Margin="0,20,0,0" Click="Button_Click" HorizontalAlignment="Left"/>-->
             </StackPanel>
 
             <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FF6F7DFF" Style="{StaticResource ButtonViewSource_Style}"/>

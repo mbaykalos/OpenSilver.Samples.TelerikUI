@@ -36,51 +36,49 @@
     <None Remove="Other\Themes\Telerik.Windows.Controls.Navigation.xaml" />
     <None Remove="Other\Themes\Telerik.windows.controls.RibbonView.xaml" />
     <None Remove="Other\Themes\Windows.Control.xaml" />
-    <None Remove="Samples\Broken\Broken.xaml" />
-    <None Remove="Samples\Broken\RadCalendar\RadCalendar_Demo.xaml" />
-    <None Remove="Samples\Broken\RadCartesianChart\RadCartesianChart_Demo.xaml" />
-    <None Remove="Samples\Supported\RadGallery\RadGallery_Demo.xaml" />
-	  <None Remove="Samples\Supported\RadListBox\RadListBox_Demo.xaml" />
-	  <None Remove="Samples\Broken\RadMap\RadMap_Demo.xaml" />
-	  <None Remove="Samples\Broken\RadScheduleView\RadScheduleView_Demo.xaml" />
-	  <None Remove="Samples\Broken\RadTimePicker\RadTimePicker_Demo.xaml" />
-	  <None Remove="Samples\Broken\RadToolBar\RadToolBar_Demo.xaml" />
-	  <None Remove="Samples\InProgress\RadTreeView\RadTreeView_Demo.xaml" />
-	  <None Remove="Samples\Broken\RadTreeListView\RadTreeListView_Demo.xaml" />
-	  <None Remove="Samples\Broken\RadWrapPanel\RadWrapPanel_Demo.xaml" />
-    <None Remove="Samples\Supported\RadContextMenu\RadContextMenu_Demo.xaml" />
-    <None Remove="Samples\Supported\RadNumericUpDown\RadNumericUpDown_Demo.xaml" />
-	  <None Remove="Samples\Broken\RadPanelBar\RadPanelBar_Demo.xaml" />
-	  <None Remove="Samples\InProgress\RadAlert\RadAlert_Demo.xaml" />
-    <None Remove="Samples\Broken\RadRichTextBox\RadRichTextBox_Demo.xaml" />
-    <None Remove="Samples\InProgress\RadComboBox\RadComboBox_Demo.xaml" />
-    <None Remove="Samples\InProgress\RadDocking\RadDocking_Demo.xaml" />
-    <None Remove="Samples\InProgress\RadGridView\RadGridView_Demo.xaml" />
-    <None Remove="Samples\Supported\RadDockPanel\RadDockPanel_Demo.xaml" />
-    <None Remove="Samples\InProgress\RadMenu\RadMenu_Demo.xaml" />
-    <None Remove="Samples\InProgress\RadRibbonView\RadRibbonView_Demo.xaml" />
-    <None Remove="Samples\Broken\RadSplitButton\RadSplitButton_Demo.xaml" />
-    <None Remove="Samples\Broken\RadTabControl\RadTabControl_Demo.xaml" />
-    <None Remove="Samples\Broken\RadToggleSwitchButton\RadToggleSwitchButton_Demo.xaml" />
-    <None Remove="Samples\InProgress\GroupBox\GroupBox_Demo.xaml" />
-    <None Remove="Samples\InProgress\InProgress.xaml" />
-    <None Remove="Samples\InProgress\RadBusyIndicator\RadBusyIndicator_Demo.xaml" />
-    <None Remove="Samples\InProgress\RadDropDownButton\RadDropDownButton_Demo.xaml" />
-    <None Remove="Samples\InProgress\RadProgressBar\RadProgressBar_Demo.xaml" />
-    <None Remove="Samples\InProgress\RadSlider\RadSlider_Demo.xaml" />
-    <None Remove="Samples\InProgress\RadTickBar\RadTickBar_Demo.xaml" />
-    <None Remove="Samples\InProgress\RadTransitionControl\RadTransitionControl_Demo.xaml" />
-    <None Remove="Samples\InProgress\RadWatermarkTextBox\RadWatermarkTextBox_Demo.xaml" />
-    <None Remove="Samples\Supported\Label\Label_Demo.xaml" />
-	<None Remove="Samples\Supported\RadButton\RadButton_Demo.xaml" />
-	  <None Remove="Samples\Broken\RadDatePicker\RadDatePicker_Demo.xaml" />
-	  <None Remove="Samples\InProgress\RadColorPicker\RadColorPicker_Demo.xaml" />
-	<None Remove="Samples\Supported\RadExpander\RadExpander_Demo.xaml" />
-    <None Remove="Samples\Supported\RadPathButton\RadPathButton_Demo.xaml" />
-    <None Remove="Samples\Supported\RadRadioButton\RadRadioButton_Demo.xaml" />
-    <None Remove="Samples\Supported\RadToggleButton\RadToggleButton_Demo.xaml" />
-    <None Remove="Samples\InProgress\RadWindow\RadWindow_demo.xaml" />
-    <None Remove="Samples\Supported\Supported.xaml" />
+    <None Remove="Samples\Controls\RadCalendar\RadCalendar_Demo.xaml" />
+    <None Remove="Samples\Controls\RadCartesianChart\RadCartesianChart_Demo.xaml" />
+    <None Remove="Samples\Controls\Controls.xaml" />
+    <None Remove="Samples\Controls\RadGallery\RadGallery_Demo.xaml" />
+	  <None Remove="Samples\Controls\RadListBox\RadListBox_Demo.xaml" />
+	  <None Remove="Samples\Controls\RadMap\RadMap_Demo.xaml" />
+	  <None Remove="Samples\Controls\RadScheduleView\RadScheduleView_Demo.xaml" />
+	  <None Remove="Samples\Controls\RadTimePicker\RadTimePicker_Demo.xaml" />
+	  <None Remove="Samples\Controls\RadToolBar\RadToolBar_Demo.xaml" />
+	  <None Remove="Samples\Controls\RadTreeView\RadTreeView_Demo.xaml" />
+	  <None Remove="Samples\Controls\RadTreeListView\RadTreeListView_Demo.xaml" />
+	  <None Remove="Samples\Controls\RadWrapPanel\RadWrapPanel_Demo.xaml" />
+    <None Remove="Samples\Controls\RadContextMenu\RadContextMenu_Demo.xaml" />
+    <None Remove="Samples\Controls\RadNumericUpDown\RadNumericUpDown_Demo.xaml" />
+	  <None Remove="Samples\Controls\RadPanelBar\RadPanelBar_Demo.xaml" />
+	  <None Remove="Samples\Controls\RadAlert\RadAlert_Demo.xaml" />
+    <None Remove="Samples\Controls\RadRichTextBox\RadRichTextBox_Demo.xaml" />
+    <None Remove="Samples\Controls\RadComboBox\RadComboBox_Demo.xaml" />
+    <None Remove="Samples\Controls\RadDocking\RadDocking_Demo.xaml" />
+    <None Remove="Samples\Controls\RadGridView\RadGridView_Demo.xaml" />
+    <None Remove="Samples\Controls\RadDockPanel\RadDockPanel_Demo.xaml" />
+    <None Remove="Samples\Controls\RadMenu\RadMenu_Demo.xaml" />
+    <None Remove="Samples\Controls\RadRibbonView\RadRibbonView_Demo.xaml" />
+    <None Remove="Samples\Controls\RadSplitButton\RadSplitButton_Demo.xaml" />
+    <None Remove="Samples\Controls\RadTabControl\RadTabControl_Demo.xaml" />
+    <None Remove="Samples\Controls\RadToggleSwitchButton\RadToggleSwitchButton_Demo.xaml" />
+    <None Remove="Samples\Controls\GroupBox\GroupBox_Demo.xaml" />
+    <None Remove="Samples\Controls\RadBusyIndicator\RadBusyIndicator_Demo.xaml" />
+    <None Remove="Samples\Controls\RadDropDownButton\RadDropDownButton_Demo.xaml" />
+    <None Remove="Samples\Controls\RadProgressBar\RadProgressBar_Demo.xaml" />
+    <None Remove="Samples\Controls\RadSlider\RadSlider_Demo.xaml" />
+    <None Remove="Samples\Controls\RadTickBar\RadTickBar_Demo.xaml" />
+    <None Remove="Samples\Controls\RadTransitionControl\RadTransitionControl_Demo.xaml" />
+    <None Remove="Samples\Controls\RadWatermarkTextBox\RadWatermarkTextBox_Demo.xaml" />
+    <None Remove="Samples\Controls\Label\Label_Demo.xaml" />
+	<None Remove="Samples\Controls\RadButton\RadButton_Demo.xaml" />
+	  <None Remove="Samples\Controls\RadDatePicker\RadDatePicker_Demo.xaml" />
+	  <None Remove="Samples\Controls\RadColorPicker\RadColorPicker_Demo.xaml" />
+	<None Remove="Samples\Controls\RadExpander\RadExpander_Demo.xaml" />
+    <None Remove="Samples\Controls\RadPathButton\RadPathButton_Demo.xaml" />
+    <None Remove="Samples\Controls\RadRadioButton\RadRadioButton_Demo.xaml" />
+    <None Remove="Samples\Controls\RadToggleButton\RadToggleButton_Demo.xaml" />
+    <None Remove="Samples\Controls\RadWindow\RadWindow_demo.xaml" />
     <None Remove="Samples\Welcome.xaml" />
   </ItemGroup>
 
@@ -122,139 +120,133 @@
 	  <Content Include="Other\Themes\Windows.Control.xaml">
 		  <Generator>MSBuild:Compile</Generator>
 	  </Content>
-    <Content Include="Samples\Broken\Broken.xaml">
+    <Content Include="Samples\Controls\RadCalendar\RadCalendar_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\Broken\RadCalendar\RadCalendar_Demo.xaml">
+    <Content Include="Samples\Controls\RadCartesianChart\RadCartesianChart_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\Broken\RadCartesianChart\RadCartesianChart_Demo.xaml">
+    <Content Include="Samples\Controls\RadGallery\RadGallery_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\Supported\RadGallery\RadGallery_Demo.xaml">
+	  <Content Include="Samples\Controls\RadListBox\RadListBox_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-	  <Content Include="Samples\Supported\RadListBox\RadListBox_Demo.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Content>
-	  <Content Include="Samples\Broken\RadMap\RadMap_Demo.xaml">
+	  <Content Include="Samples\Controls\RadMap\RadMap_Demo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Include="Samples\Broken\RadScheduleView\RadScheduleView_Demo.xaml">
+	  <Content Include="Samples\Controls\RadScheduleView\RadScheduleView_Demo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Include="Samples\Broken\RadTimePicker\RadTimePicker_Demo.xaml">
+	  <Content Include="Samples\Controls\RadTimePicker\RadTimePicker_Demo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Include="Samples\Broken\RadToolBar\RadToolBar_Demo.xaml">
+	  <Content Include="Samples\Controls\RadToolBar\RadToolBar_Demo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Include="Samples\InProgress\RadTreeView\RadTreeView_Demo.xaml">
+	  <Content Include="Samples\Controls\RadTreeView\RadTreeView_Demo.xaml">
 		  <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Include="Samples\Broken\RadTreeListView\RadTreeListView_Demo.xaml">
+	  <Content Include="Samples\Controls\RadTreeListView\RadTreeListView_Demo.xaml">
 		  <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Include="Samples\Broken\RadWrapPanel\RadWrapPanel_Demo.xaml">
+	  <Content Include="Samples\Controls\RadWrapPanel\RadWrapPanel_Demo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </Content>
-    <Content Include="Samples\Supported\RadContextMenu\RadContextMenu_Demo.xaml">
+    <Content Include="Samples\Controls\RadContextMenu\RadContextMenu_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\InProgress\RadGridView\RadGridView_Demo.xaml">
+    <Content Include="Samples\Controls\RadGridView\RadGridView_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\Supported\RadNumericUpDown\RadNumericUpDown_Demo.xaml">
+    <Content Include="Samples\Controls\RadNumericUpDown\RadNumericUpDown_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\Broken\RadPanelBar\RadPanelBar_Demo.xaml">
+    <Content Include="Samples\Controls\RadPanelBar\RadPanelBar_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-	  <Content Include="Samples\InProgress\RadAlert\RadAlert_Demo.xaml">
+	  <Content Include="Samples\Controls\RadAlert\RadAlert_Demo.xaml">
 		  <Generator>MSBuild:Compile</Generator>
 	  </Content>
-    <Content Include="Samples\Broken\RadRichTextBox\RadRichTextBox_Demo.xaml">
+    <Content Include="Samples\Controls\RadRichTextBox\RadRichTextBox_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\InProgress\RadComboBox\RadComboBox_Demo.xaml">
+    <Content Include="Samples\Controls\RadComboBox\RadComboBox_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\InProgress\RadDocking\RadDocking_Demo.xaml">
+    <Content Include="Samples\Controls\RadDocking\RadDocking_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\Supported\RadDockPanel\RadDockPanel_Demo.xaml">
+    <Content Include="Samples\Controls\RadDockPanel\RadDockPanel_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\InProgress\RadMenu\RadMenu_Demo.xaml">
+    <Content Include="Samples\Controls\RadMenu\RadMenu_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\InProgress\RadRibbonView\RadRibbonView_Demo.xaml">
+    <Content Include="Samples\Controls\RadRibbonView\RadRibbonView_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\Broken\RadSplitButton\RadSplitButton_Demo.xaml">
+    <Content Include="Samples\Controls\RadSplitButton\RadSplitButton_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\Broken\RadTabControl\RadTabControl_Demo.xaml">
+    <Content Include="Samples\Controls\RadTabControl\RadTabControl_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\Broken\RadToggleSwitchButton\RadToggleSwitchButton_Demo.xaml">
+    <Content Include="Samples\Controls\RadToggleSwitchButton\RadToggleSwitchButton_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\InProgress\GroupBox\GroupBox_Demo.xaml">
+    <Content Include="Samples\Controls\GroupBox\GroupBox_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\InProgress\InProgress.xaml">
+    <Content Include="Samples\Controls\RadBusyIndicator\RadBusyIndicator_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\InProgress\RadBusyIndicator\RadBusyIndicator_Demo.xaml">
+    <Content Include="Samples\Controls\RadDropDownButton\RadDropDownButton_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\InProgress\RadDropDownButton\RadDropDownButton_Demo.xaml">
+    <Content Include="Samples\Controls\RadProgressBar\RadProgressBar_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\InProgress\RadProgressBar\RadProgressBar_Demo.xaml">
+    <Content Include="Samples\Controls\RadSlider\RadSlider_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\InProgress\RadSlider\RadSlider_Demo.xaml">
+    <Content Include="Samples\Controls\RadTickBar\RadTickBar_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\InProgress\RadTickBar\RadTickBar_Demo.xaml">
+    <Content Include="Samples\Controls\RadTransitionControl\RadTransitionControl_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\InProgress\RadTransitionControl\RadTransitionControl_Demo.xaml">
+    <Content Include="Samples\Controls\RadWatermarkTextBox\RadWatermarkTextBox_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\InProgress\RadWatermarkTextBox\RadWatermarkTextBox_Demo.xaml">
+    <Content Include="Samples\Controls\Label\Label_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\Supported\Label\Label_Demo.xaml">
+    <Content Include="Samples\Controls\RadButton\RadButton_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\Supported\RadButton\RadButton_Demo.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Content>
-	  <Content Include="Samples\Broken\RadDatePicker\RadDatePicker_Demo.xaml">
+	  <Content Include="Samples\Controls\RadDatePicker\RadDatePicker_Demo.xaml">
 		<Generator>MSBuild:Compile</Generator>
 	</Content>
-	  <Content Include="Samples\InProgress\RadColorPicker\RadColorPicker_Demo.xaml">
+	  <Content Include="Samples\Controls\RadColorPicker\RadColorPicker_Demo.xaml">
 		  <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Include="Samples\Supported\RadExpander\RadExpander_Demo.xaml">
+	  <Content Include="Samples\Controls\RadExpander\RadExpander_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\Supported\RadPathButton\RadPathButton_Demo.xaml">
+    <Content Include="Samples\Controls\RadPathButton\RadPathButton_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\Supported\RadRadioButton\RadRadioButton_Demo.xaml">
+    <Content Include="Samples\Controls\RadRadioButton\RadRadioButton_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\Supported\RadToggleButton\RadToggleButton_Demo.xaml">
+    <Content Include="Samples\Controls\RadToggleButton\RadToggleButton_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\InProgress\RadWindow\RadWindow_demo.xaml">
+    <Content Include="Samples\Controls\RadWindow\RadWindow_demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Samples\Supported\Supported.xaml">
+    <Content Include="Samples\Controls\Controls.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
     <Content Include="Samples\Welcome.xaml">

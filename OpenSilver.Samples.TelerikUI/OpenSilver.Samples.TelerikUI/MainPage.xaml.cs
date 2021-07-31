@@ -35,19 +35,9 @@ namespace OpenSilver.Samples.TelerikUI
             UpdateMenuDispositionBasedOnDisplaySize();
         }
 
-        void Supported_Click(object sender, RoutedEventArgs e)
+        void ButtonControls_Click(object sender, RoutedEventArgs e)
         {
-            NavigateToPage("/Supported");
-        }
-
-        void Inprogress_Click(object sender, RoutedEventArgs e)
-        {
-            NavigateToPage("/InProgress");
-        }
-
-        void Broken_Click(object sender, RoutedEventArgs e)
-        {
-            NavigateToPage("/Broken");
+            NavigateToPage("/Controls");
         }
 
         void ButtonHome_Click(object sender, RoutedEventArgs e)

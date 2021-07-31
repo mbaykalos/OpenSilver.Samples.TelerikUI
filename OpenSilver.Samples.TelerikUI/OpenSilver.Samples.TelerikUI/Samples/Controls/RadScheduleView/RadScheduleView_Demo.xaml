@@ -14,7 +14,8 @@
             </Grid.RowDefinitions>
             <ContentControl Content="Rad Schedule View" Foreground="#FFD59851" Background="#FFBFA383" Style="{StaticResource HeaderControl_Style}"/>
             <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <controls:RadScheduleView  Width="150"/>
+                <!--Commented out because it causes an exception-->
+                <!--<controls:RadScheduleView Width="150"/>-->
             </StackPanel>
 
             <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FF6F7DFF" Style="{StaticResource ButtonViewSource_Style}"/>
