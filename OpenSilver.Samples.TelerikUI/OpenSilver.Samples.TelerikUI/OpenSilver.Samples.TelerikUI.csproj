@@ -26,16 +26,6 @@
     <None Remove="EmptyOpenSilverMigrationApplication.csproj.vspscc" />
     <None Remove="MyTemplate_rename_me_after_export.vstemplate" />
     <None Remove="Other\Styles.xaml" />
-    <None Remove="Other\Themes\Brushes.xaml" />
-    <None Remove="Other\Themes\FontFamily.xaml" />
-    <None Remove="Other\Themes\ProgressBar_style.xaml" />
-    <None Remove="Other\Themes\System.Windows.xaml" />
-    <None Remove="Other\Themes\Telerik.Windows.Controls.Docking.xaml" />
-    <None Remove="Other\Themes\Telerik.Windows.Controls.GridView.xaml" />
-    <None Remove="Other\Themes\Telerik.Windows.Controls.Input.xaml" />
-    <None Remove="Other\Themes\Telerik.Windows.Controls.Navigation.xaml" />
-    <None Remove="Other\Themes\Telerik.windows.controls.RibbonView.xaml" />
-    <None Remove="Other\Themes\Windows.Control.xaml" />
     <None Remove="Samples\Controls\RadCalendar\RadCalendar_Demo.xaml" />
     <None Remove="Samples\Controls\RadCartesianChart\RadCartesianChart_Demo.xaml" />
     <None Remove="Samples\Controls\Controls.xaml" />
@@ -90,36 +80,6 @@
     <Content Include="Other\Styles.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="Other\Themes\Brushes.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Content>
-    <Content Include="Other\Themes\FontFamily.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Content>
-    <Content Include="Other\Themes\ProgressBar_style.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Content>
-    <Content Include="Other\Themes\System.Windows.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Content>
-    <Content Include="Other\Themes\Telerik.Windows.Controls.Docking.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Content>
-    <Content Include="Other\Themes\Telerik.Windows.Controls.GridView.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Content>
-	  <Content Include="Other\Themes\Telerik.Windows.Controls.Input.xaml">
-		  <Generator>MSBuild:Compile</Generator>
-	  </Content>
-	  <Content Include="Other\Themes\Telerik.Windows.Controls.Navigation.xaml">
-		  <Generator>MSBuild:Compile</Generator>
-	  </Content>
-	  <Content Include="Other\Themes\Telerik.windows.controls.RibbonView.xaml">
-		  <Generator>MSBuild:Compile</Generator>
-	  </Content>
-	  <Content Include="Other\Themes\Windows.Control.xaml">
-		  <Generator>MSBuild:Compile</Generator>
-	  </Content>
     <Content Include="Samples\Controls\RadCalendar\RadCalendar_Demo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
