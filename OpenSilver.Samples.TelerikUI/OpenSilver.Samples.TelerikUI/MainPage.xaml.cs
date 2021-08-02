@@ -45,7 +45,7 @@ namespace OpenSilver.Samples.TelerikUI
             NavigateToPage("/Welcome");
         }
 
-        void NavigateToPage(string targetUri)
+        public void NavigateToPage(string targetUri)
         {
             //Hide the menu:
             if (_currentState == CurrentState.SmallResolution_ShowMenu)

@@ -10,7 +10,7 @@
         </Border.Effect>
         <StackPanel Margin="0,0,20,20">
             <TextBlock Text="Welcome!" Foreground="#FF2299A1" Style="{StaticResource PageHeader_Style}"/>
-            <TextBlock x:Name="IntroductionTextBlock" Text="This app demonstrates the current status of the Userware work to compile the 'Telerik UI for Silverlight' source code using OpenSilver, so that it can run on modern browsers, where Silveright is not supported. It also provides sample code to show how to use the Telerik UI controls in an OpenSilver application." FontSize="16" Foreground="#FF333333" TextWrapping="Wrap" Margin="22,10,0,0"/>
+            <TextBlock x:Name="IntroductionTextBlock" Text="This app demonstrates the current state of the 'Telerik UI for Silverlight' source code recompiled with OpenSilver, so that it can run on modern browsers without plugins, where Silveright is not supported. It also provides sample code to show how to use those Telerik UI controls in an OpenSilver application." FontSize="16" Foreground="#FF333333" TextWrapping="Wrap" Margin="22,10,0,0"/>
             <TextBlock Text="To use these controls in your own OpenSilver application, you need:" FontSize="16" Foreground="#FF333333" TextWrapping="Wrap" Margin="22,10,0,0"/>
 
             <TextBlock FontSize="16" Foreground="#FF333333" TextWrapping="Wrap" Margin="22,10,0,0">
@@ -29,14 +29,15 @@
                     </Span>
             </TextBlock>
 
-            <TextBlock Text="Legal note: Telerik UI is the property of Progress, not Userware (OpenSilver). Userware is not affiliated with Telerik. Userware will provide the tools that allow you to compile the source code of Telerik UI using OpenSilver. " FontSize="16" Foreground="#FF333333" TextWrapping="Wrap" Margin="22,10,0,0"/>
-            <TextBlock FontSize="16" Foreground="#FF333333" TextWrapping="Wrap" Margin="22,10,0,0">
-                    <Span xml:space="preserve"><Run>Userware does not provide the source code itself. The source code of Telerik UI is provided to you by Progress as part of your license for Telerik UI for Silverlight. For support and further information, please contact Userware at: </Run>
-                     <Hyperlink FontSize="16" Foreground="Blue" NavigateUri="https://www.opensilver.net/contact.aspx" Cursor="Hand">
+            <TextBlock FontSize="12" FontStyle="Italic" Foreground="#FF888888" TextWrapping="Wrap" Margin="22,14,0,0">
+                    <Span xml:space="preserve"><Run>Legal notice: Telerik UI is the property of Progress, not Userware. Userware is not affiliated with Telerik. Userware will provide the tools that allow you to compile the source code of Telerik UI using OpenSilver. Userware does not provide the source code itself. The source code of Telerik UI is provided to you by Progress as part of your license for Telerik UI for Silverlight. For support and further information, please contact Userware at: </Run>
+                     <Hyperlink FontSize="12" Foreground="Blue" NavigateUri="https://www.opensilver.net/contact.aspx" Cursor="Hand">
                          https://www.opensilver.net/contact.aspx
                      </Hyperlink>
                     </Span>
             </TextBlock>
+
+            <Button Content="Continue to the demos" FontSize="16" FontWeight="Bold" Background="#FF2299A1" Padding="10,6" Foreground="White" Style="{StaticResource FlatButtonStyle}" HorizontalAlignment="Left" Margin="25,30,0,0" Click="ButtonToContinue_Click"/>
 
         </StackPanel>
     </Border>
