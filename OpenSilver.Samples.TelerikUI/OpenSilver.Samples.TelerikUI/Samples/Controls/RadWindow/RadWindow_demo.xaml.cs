@@ -27,12 +27,12 @@ namespace OpenSilver.Samples.TelerikUI
                 new ViewSourceButtonInfo()
                 {
                     TabHeader = "RadWindow_demo.xaml",
-                    FilePathOnGitHub = "github.com/OpenSilver/OpenSilver.Samples.TelerikUI/blob/master/OpenSilver.Samples.TelerikUI/OpenSilver.Samples.TelerikUI/Samples/InProgress/RadWindow/RadWindow_demo.xaml"
+                    FilePathOnGitHub = "github/OpenSilver/OpenSilver.Samples.TelerikUI/blob/master/OpenSilver.Samples.TelerikUI/OpenSilver.Samples.TelerikUI/Samples/Controls/RadWindow/RadWindow_demo.xaml"
                 },
                 new ViewSourceButtonInfo()
                 {
                      TabHeader = "RadWindow_demo.xaml.cs",
-                     FilePathOnGitHub = "github.com/OpenSilver/OpenSilver.Samples.TelerikUI/blob/master/OpenSilver.Samples.TelerikUI/OpenSilver.Samples.TelerikUI/Samples/InProgress/RadWindow/RadWindow_demo.xaml.cs"
+                     FilePathOnGitHub = "github/OpenSilver/OpenSilver.Samples.TelerikUI/blob/master/OpenSilver.Samples.TelerikUI/OpenSilver.Samples.TelerikUI/Samples/Controls/RadWindow/RadWindow_demo.xaml.cs"
                 }
             });
         }
