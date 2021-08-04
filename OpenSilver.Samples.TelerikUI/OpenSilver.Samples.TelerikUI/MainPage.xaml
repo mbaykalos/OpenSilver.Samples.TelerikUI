@@ -41,7 +41,7 @@
                 <Border.RenderTransform>
                     <TranslateTransform/>
                 </Border.RenderTransform>
-                <Button Click="ButtonToHideOrShowMenu_Click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Transparent" Style="{StaticResource FlatButtonStyle}" Padding="0">
+                <Button Click="ButtonToHideOrShowMenu_Click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Style="{StaticResource FlatButtonStyle}" Padding="0">
                     <Image Source="other/MenuIcon.png" Width="50" Height="50" Stretch="Fill"/>
                 </Button>
             </Border>
