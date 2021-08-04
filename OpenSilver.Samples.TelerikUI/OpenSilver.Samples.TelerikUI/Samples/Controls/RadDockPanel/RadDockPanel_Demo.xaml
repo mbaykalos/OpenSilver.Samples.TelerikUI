@@ -12,7 +12,7 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            <ContentControl Content="Rad Dock Panel" Foreground="#FFF78069" Background="#FFDCA59C" Style="{StaticResource HeaderControl_Style}"/>
+            <ContentControl Content="Rad Dock Panel" Foreground="#FFFCAB54" Background="#FFCCA376" Style="{StaticResource HeaderControl_Style}"/>
             <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <telerik:RadDockPanel Grid.Row="1" Width="170" Height="100" Background="#DDDDDD" HorizontalAlignment="Center" VerticalAlignment="Top">
                     <Border telerik:RadDockPanel.Dock="Left" Width="50" Background="#FF6666ff" CornerRadius="2" Margin="2"/>
@@ -24,7 +24,7 @@
                 </telerik:RadDockPanel>
             </StackPanel>
 
-            <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FF6F7DFF" Style="{StaticResource ButtonViewSource_Style}"/>
+            <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FCAB54" Style="{StaticResource ButtonViewSource_Style}"/>
         </Grid>
     </ContentControl>
 </UserControl>

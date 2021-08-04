@@ -12,7 +12,7 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-            <ContentControl Content="RadDropDownButton" Foreground="#FFF78069" Background="#FFDCA59C" Style="{StaticResource HeaderControl_Style}"/>
+            <ContentControl Content="RadDropDownButton" Foreground="#FF13D7E3" Background="#FF91C3C5" Style="{StaticResource HeaderControl_Style}"/>
             <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
             <controls:RadDropDownButton Content="DropDown Button">
                 <controls:RadDropDownButton.DropDownContent>
@@ -25,7 +25,7 @@
             </controls:RadDropDownButton>
         </StackPanel>
 
-        <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FF6F7DFF" Style="{StaticResource ButtonViewSource_Style}"/>
+            <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FF13D7E3" Style="{StaticResource ButtonViewSource_Style}"/>
     </Grid>
     </ContentControl>
 </UserControl>

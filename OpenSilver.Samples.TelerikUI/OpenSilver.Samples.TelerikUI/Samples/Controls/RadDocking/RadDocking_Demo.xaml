@@ -12,7 +12,7 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            <ContentControl Content="RadDocking" Foreground="#FF6F7DFF" Background="#FF9A9FCE" Style="{StaticResource HeaderControl_Style}"/>
+            <ContentControl Content="RadDocking" Foreground="#FFD66DED" Background="#FFBA8AC6" Style="{StaticResource HeaderControl_Style}"/>
             <controls:RadDocking Grid.Row="1" Width="420" Height="150" CustomLayout="True" ClipToBounds="True">
                 <controls:RadDocking.DocumentHost>
                     <controls:RadSplitContainer>
@@ -27,7 +27,7 @@
                     </controls:RadSplitContainer>
                 </controls:RadDocking.DocumentHost>
             </controls:RadDocking>
-            <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FF6F7DFF" Style="{StaticResource ButtonViewSource_Style}"/>
+            <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FFD66DED" Style="{StaticResource ButtonViewSource_Style}"/>
         </Grid>
     </ContentControl>
 </UserControl>

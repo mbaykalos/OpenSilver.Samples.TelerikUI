@@ -12,7 +12,7 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            <ContentControl Content="Rad Menu" Foreground="#FFF78069" Background="#FFDCA59C" Style="{StaticResource HeaderControl_Style}"/>
+            <ContentControl Content="Rad Menu" Foreground="#FFFCAB54" Background="#FFCCA376" Style="{StaticResource HeaderControl_Style}"/>
             <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <controls:RadMenu VerticalAlignment="Top">
                     <controls:RadMenuItem Header="Item with submenu">
@@ -23,7 +23,7 @@
                 </controls:RadMenu>
             </StackPanel>
 
-            <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FF6F7DFF" Style="{StaticResource ButtonViewSource_Style}"/>
+            <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FCAB54" Style="{StaticResource ButtonViewSource_Style}"/>
         </Grid>
     </ContentControl>
 </UserControl>

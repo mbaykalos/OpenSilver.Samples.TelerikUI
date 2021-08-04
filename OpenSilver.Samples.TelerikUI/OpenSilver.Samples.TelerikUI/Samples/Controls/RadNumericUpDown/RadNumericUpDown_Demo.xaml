@@ -12,7 +12,7 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            <ContentControl Content="RadNumericUpDown" Foreground="#FFD59851" Background="#FFBFA383" Style="{StaticResource HeaderControl_Style}"/>
+            <ContentControl Content="RadNumericUpDown" Foreground="#FF6F7DFF" Background="#FF9A9FCE" Style="{StaticResource HeaderControl_Style}"/>
             <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <controls:RadNumericUpDown Value="50" IsEditable="True" Minimum="-88" Maximum="88" CustomUnit="mph" AutoReverse="True" UpdateValueToMatchTextOnLostFocus="True"/>
             </StackPanel>

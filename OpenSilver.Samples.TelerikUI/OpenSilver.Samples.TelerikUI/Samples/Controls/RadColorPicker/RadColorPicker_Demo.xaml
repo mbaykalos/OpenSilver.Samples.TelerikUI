@@ -12,13 +12,13 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            <ContentControl Content="RadColorPicker" Foreground="#FFD59851" Background="#FFBFA383" Style="{StaticResource HeaderControl_Style}"/>
+            <ContentControl Content="RadColorPicker" Foreground="#FFFF657F" Background="#FFCB8591" Style="{StaticResource HeaderControl_Style}"/>
             <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <controls:RadColorPicker x:Name="ColorPicker" CustomLayout="True" SelectedColorChanged="SelectedColor_Changed"/>
                 <Border x:Name="ColorBorder" Width="30" Height="18" Margin="3"/>
             </StackPanel>
 
-            <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FF6F7DFF" Style="{StaticResource ButtonViewSource_Style}"/>
+            <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FFFF657F" Style="{StaticResource ButtonViewSource_Style}"/>
         </Grid>
     </ContentControl>
 </UserControl>

@@ -13,7 +13,7 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            <ContentControl Content="Rad Cartesian chart" Foreground="#FFD59851" Background="#FFBFA383" Style="{StaticResource HeaderControl_Style}"/>
+            <ContentControl Content="Rad Cartesian chart" Foreground="#FFFF7065" Background="#FFD5928F" Style="{StaticResource HeaderControl_Style}"/>
             <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <!--Commented out because it causes an exception-->
                 <!--<telerik:RadCartesianChart x:Name="ReferenceGraph" HorizontalAlignment="Left" Margin="10,18,0,0" Background="Gray" VerticalAlignment="Top" Height="400" Width="730" BorderThickness="0" Visibility="Visible">
@@ -80,7 +80,7 @@
                 <Button Content="Apply Non-Graphic Selection Method" Margin="0,20,0,0" Click="Button_Click" HorizontalAlignment="Left"/>-->
             </StackPanel>
 
-            <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FF6F7DFF" Style="{StaticResource ButtonViewSource_Style}"/>
+            <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FFFF7065" Style="{StaticResource ButtonViewSource_Style}"/>
         </Grid>
     </ContentControl>
 </UserControl>
