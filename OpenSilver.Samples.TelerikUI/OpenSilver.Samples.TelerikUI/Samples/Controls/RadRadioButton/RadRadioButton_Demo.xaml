@@ -5,16 +5,16 @@
     xmlns:local="clr-namespace:OpenSilver.Samples.TelerikUI"
     xmlns:controls="using:Telerik.Windows.Controls">
 
-    <ContentControl Style="{StaticResource Card_Style}" Height="210" Width="180">
+    <ContentControl Style="{StaticResource Card_Style}" Height="150" Width="220">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            <ContentControl Content="Rad Radio Button" Foreground="#FFF78069" Background="#FFDCA59C" Style="{StaticResource HeaderControl_Style}"/>
+            <ContentControl Content="RadRadioButton" Foreground="#FFF78069" Background="#FFDCA59C" Style="{StaticResource HeaderControl_Style}"/>
             <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <controls:RadRadioButton Content="Choice 1" />
+                <controls:RadRadioButton Content="Choice 1" IsChecked="True" />
                 <controls:RadRadioButton Content="Choice 2"/>
             </StackPanel>
 

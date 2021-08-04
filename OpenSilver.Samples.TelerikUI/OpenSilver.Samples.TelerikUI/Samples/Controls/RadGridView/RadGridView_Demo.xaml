@@ -12,8 +12,8 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            <ContentControl Content="RadGridView (native)" Foreground="#FFD59851" Background="#FFBFA383" Style="{StaticResource HeaderControl_Style}"/>
-            <controls:RadGridView x:Name="RadGridView1" Grid.Row="1" CustomLayout="True" Width="700" Height="270"  HorizontalAlignment="Center" VerticalAlignment="Center"/> <!--Width="750" Height="400"-->
+            <ContentControl Content="RadGridView" Foreground="#FFD59851" Background="#FFBFA383" Style="{StaticResource HeaderControl_Style}"/>
+            <controls:RadGridView x:Name="RadGridView1" Grid.Row="1" CustomLayout="True" Width="680" Height="270" HorizontalAlignment="Center" VerticalAlignment="Center"/> <!--Width="750" Height="400"-->
             <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FF6F7DFF" Style="{StaticResource ButtonViewSource_Style}"/>
         </Grid>
     </ContentControl>

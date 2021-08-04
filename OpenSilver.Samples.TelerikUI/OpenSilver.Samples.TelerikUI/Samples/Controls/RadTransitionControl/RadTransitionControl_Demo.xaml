@@ -5,18 +5,17 @@
     xmlns:local="clr-namespace:OpenSilver.Samples.TelerikUI"
     xmlns:controls="using:Telerik.Windows.Controls">
 
-    <ContentControl Style="{StaticResource Card_Style}" Height="210" Width="180">
+    <ContentControl Style="{StaticResource Card_Style}" Height="150" Width="220">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            <ContentControl Content="Rad Transition control" Foreground="#FFFFA443" Background="#FFCB9E73" Style="{StaticResource HeaderControl_Style}"/>
+            <ContentControl Content="RadTransitionControl" Foreground="#FFFFA443" Background="#FFCB9E73" Style="{StaticResource HeaderControl_Style}"/>
             <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <controls:RadTransitionControl x:Name="radTransitionControl"/>
             </StackPanel>
-
             <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FF6F7DFF" Style="{StaticResource ButtonViewSource_Style}"/>
         </Grid>
     </ContentControl>

@@ -5,7 +5,7 @@
     xmlns:controls="using:Telerik.Windows.Controls"
     xmlns:local="clr-namespace:OpenSilver.Samples.TelerikUI">
 
-    <ContentControl Style="{StaticResource Card_Style}" Height="210" Width="180">
+    <ContentControl Style="{StaticResource Card_Style}" Height="210" Width="220">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
@@ -13,18 +13,13 @@
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
             <ContentControl Content="RadWrapPanel" Foreground="#FFD59851" Background="#FFBFA383" Style="{StaticResource HeaderControl_Style}"/>
-            <StackPanel Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <Border>
-                    <controls:RadWrapPanel  Width="150" ItemWidth="44" ItemHeight="24">
-                        <Border Width="40" Height="20" Margin="2" Background="LightBlue"/>
-                        <Border Width="40" Height="20" Margin="2" Background="LightBlue"/>
-                        <Border Width="40" Height="20" Margin="2" Background="LightBlue"/>
-                        <Border Width="40" Height="20" Margin="2" Background="LightBlue"/>
-                        <Border Width="40" Height="20" Margin="2" Background="LightBlue"/>
-                    </controls:RadWrapPanel>
-                </Border>
-            </StackPanel>
-
+            <controls:RadWrapPanel CustomLayout="True" Grid.Row="1" Width="150" Height="140" ItemWidth="44" ItemHeight="24">
+                <Border Width="40" Height="20" Margin="2" Background="LightBlue"/>
+                <Border Width="40" Height="20" Margin="2" Background="LightBlue"/>
+                <Border Width="40" Height="20" Margin="2" Background="LightBlue"/>
+                <Border Width="40" Height="20" Margin="2" Background="LightBlue"/>
+                <Border Width="40" Height="20" Margin="2" Background="LightBlue"/>
+            </controls:RadWrapPanel>
             <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FF6F7DFF" Style="{StaticResource ButtonViewSource_Style}"/>
         </Grid>
     </ContentControl>

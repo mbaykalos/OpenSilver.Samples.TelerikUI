@@ -5,17 +5,17 @@
     xmlns:controls="using:Telerik.Windows.Controls"
     xmlns:local="clr-namespace:OpenSilver.Samples.TelerikUI">
 
-    <ContentControl Style="{StaticResource Card_Style}" Height="210" Width="180">
+    <ContentControl Style="{StaticResource Card_Style}" Height="180" Width="480">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            <ContentControl Content="Rad Schedule View" Foreground="#FFD59851" Background="#FFBFA383" Style="{StaticResource HeaderControl_Style}"/>
+            <ContentControl Content="RadScheduleView" Foreground="#FFD59851" Background="#FFBFA383" Style="{StaticResource HeaderControl_Style}"/>
             <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <!--Commented out because it causes an exception-->
-                <!--<controls:RadScheduleView Width="150"/>-->
+                <!--<controls:RadScheduleView CustomLayout="True" Width="150"/>-->
             </StackPanel>
 
             <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FF6F7DFF" Style="{StaticResource ButtonViewSource_Style}"/>

@@ -5,14 +5,14 @@
     xmlns:controls="using:Telerik.Windows.Controls"
     xmlns:local="clr-namespace:OpenSilver.Samples.TelerikUI">
 
-    <ContentControl Style="{StaticResource Card_Style}" Height="210" Width="180">
+    <ContentControl Style="{StaticResource Card_Style}" Height="210" Width="220">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            <ContentControl Content="Rad ListBox" Foreground="#FFD59851" Background="#FFBFA383" Style="{StaticResource HeaderControl_Style}"/>
+            <ContentControl Content="RadListBox" Foreground="#FFD59851" Background="#FFBFA383" Style="{StaticResource HeaderControl_Style}"/>
             <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <controls:RadListBox  Width="150" x:Name="radListBox">
                     <controls:RadListBoxItem Content="Australia" />

@@ -5,18 +5,15 @@
     xmlns:controls="using:Telerik.Windows.Controls"
     xmlns:local="clr-namespace:OpenSilver.Samples.TelerikUI">
 
-    <ContentControl Style="{StaticResource Card_Style}" Height="210" Width="580">
+    <ContentControl Style="{StaticResource Card_Style}" Height="150" Width="220">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            <ContentControl Content="Rad DatePicker" Foreground="#FFD59851" Background="#FFBFA383" Style="{StaticResource HeaderControl_Style}"/>
-            <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <controls:RadDatePicker Width="200"/>
-            </StackPanel>
-
+            <ContentControl Content="RadDatePicker" Foreground="#FFD59851" Background="#FFBFA383" Style="{StaticResource HeaderControl_Style}"/>
+            <controls:RadDatePicker Width="150" CustomLayout="True" Grid.Row="1"/>
             <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FF6F7DFF" Style="{StaticResource ButtonViewSource_Style}"/>
         </Grid>
     </ContentControl>

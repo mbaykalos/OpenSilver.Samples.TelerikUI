@@ -5,16 +5,16 @@
     xmlns:local="clr-namespace:OpenSilver.Samples.TelerikUI"
     xmlns:controls="using:Telerik.Windows.Controls">
 
-    <ContentControl Style="{StaticResource Card_Style}" Height="210" Width="180">
+    <ContentControl Style="{StaticResource Card_Style}" Height="150" Width="220">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            <ContentControl Content="Watermark" Foreground="#FFF78069" Background="#FFDCA59C" Style="{StaticResource HeaderControl_Style}"/>
+            <ContentControl Content="RadWatermarkTextBox" Foreground="#FFF78069" Background="#FFDCA59C" Style="{StaticResource HeaderControl_Style}"/>
             <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <controls:RadWatermarkTextBox WatermarkContent="Please enter your name"/>
+                <controls:RadWatermarkTextBox WatermarkContent="Enter your name"/>
             </StackPanel>
 
             <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FF6F7DFF" Style="{StaticResource ButtonViewSource_Style}"/>

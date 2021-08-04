@@ -5,7 +5,7 @@
     xmlns:local="clr-namespace:OpenSilver.Samples.TelerikUI"
     xmlns:controls="using:Telerik.Windows.Controls">
 
-    <ContentControl Style="{StaticResource Card_Style}" Height="210" Width="180">
+    <ContentControl Style="{StaticResource Card_Style}" Height="150" Width="220">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
@@ -15,7 +15,7 @@
             <ContentControl Content="Rad Menu" Foreground="#FFF78069" Background="#FFDCA59C" Style="{StaticResource HeaderControl_Style}"/>
             <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <controls:RadMenu VerticalAlignment="Top">
-                    <controls:RadMenuItem Header="Item 1">
+                    <controls:RadMenuItem Header="Item with submenu">
                         <controls:RadMenuItem Header="SubItem 1" />
                         <controls:RadMenuItem Header="SubItem 2" />
                     </controls:RadMenuItem>

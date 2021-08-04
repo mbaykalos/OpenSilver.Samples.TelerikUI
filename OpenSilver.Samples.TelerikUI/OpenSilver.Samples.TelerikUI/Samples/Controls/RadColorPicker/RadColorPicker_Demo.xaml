@@ -5,16 +5,16 @@
     xmlns:controls="using:Telerik.Windows.Controls"
     xmlns:local="clr-namespace:OpenSilver.Samples.TelerikUI">
 
-    <ContentControl Style="{StaticResource Card_Style}" Height="210" Width="180">
+    <ContentControl Style="{StaticResource Card_Style}" Height="150" Width="220">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            <ContentControl Content="Rad Color Picker" Foreground="#FFD59851" Background="#FFBFA383" Style="{StaticResource HeaderControl_Style}"/>
+            <ContentControl Content="RadColorPicker" Foreground="#FFD59851" Background="#FFBFA383" Style="{StaticResource HeaderControl_Style}"/>
             <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <controls:RadColorPicker x:Name="ColorPicker" SelectedColorChanged="SelectedColor_Changed"/>
+                <controls:RadColorPicker x:Name="ColorPicker" CustomLayout="True" SelectedColorChanged="SelectedColor_Changed"/>
                 <Border x:Name="ColorBorder" Width="30" Height="18" Margin="3"/>
             </StackPanel>
 
