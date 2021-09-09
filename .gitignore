@@ -341,3 +341,7 @@ Binaries
 /OpenSilverDemo/OpenSilverDemo.Browser/wwwroot
 /OpenSilver.Samples.TelerikUI/OpenSilver.Samples.TelerikUI/Libs
 /OpenSilver.Samples.TelerikUI/OpenSilver.Samples.TelerikUI.Browser/wwwroot/resources
+
+# Browser projects
+**/wwwroot/libs
+**/wwwroot/resources
