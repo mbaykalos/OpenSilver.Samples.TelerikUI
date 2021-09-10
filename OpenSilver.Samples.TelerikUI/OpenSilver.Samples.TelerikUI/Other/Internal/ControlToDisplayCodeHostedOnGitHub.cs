@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
+using System.Windows.Browser;
 using System.Windows.Controls;
+using CSHTML5.Internal;
 
 namespace OpenSilver.Samples.TelerikUI
 {
@@ -19,11 +21,20 @@ namespace OpenSilver.Samples.TelerikUI
             HorizontalContentAlignment = HorizontalAlignment.Stretch;
         }
 
+        string GetHtmlString(string filePath)
+        {
+            var embedJs =
+                INTERNAL_UriHelper.ConvertToHtml5Path("ms-appx:/Other/embed.js");
+            return string.Format(
+                "<script src=\"{0}?target={1}&style=github&showBorder=on&showLineNumbers=on&showCopy=on\"></script>",
+                embedJs, HttpUtility.UrlEncode("https://github.com" + filePath.Substring(6)));
+        }
+
         void OnLoaded(object sender, RoutedEventArgs e)
         {
             if (!string.IsNullOrEmpty(_filePathOnGitHub))
             {
-                string htmlString = string.Format("<script src='https://gist-it.appspot.com/{0}?footer=no'></script>", _filePathOnGitHub);
+                string htmlString = GetHtmlString(_filePathOnGitHub);
                 DisplayHtmlString(htmlString);
             }
         }
@@ -48,7 +59,7 @@ namespace OpenSilver.Samples.TelerikUI
 
                 if (this.IsLoaded)
                 {
-                    string htmlString = string.Format("<script src='https://gist-it.appspot.com/{0}?footer=no'></script>", FilePathOnGitHub);
+                    string htmlString = GetHtmlString(FilePathOnGitHub);
                     if (htmlString != _displayedHtmlString)
                     {
                         DisplayHtmlString(htmlString);

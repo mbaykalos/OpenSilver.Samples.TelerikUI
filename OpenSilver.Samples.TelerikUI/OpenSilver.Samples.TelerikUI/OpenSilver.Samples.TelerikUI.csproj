@@ -25,6 +25,7 @@
   <ItemGroup>
     <None Remove="EmptyOpenSilverMigrationApplication.csproj.vspscc" />
     <None Remove="MyTemplate_rename_me_after_export.vstemplate" />
+    <None Remove="Other\embed.js" />
     <None Remove="Other\Styles.xaml" />
     <None Remove="Samples\Controls\RadCalendar\RadCalendar_Demo.xaml" />
     <None Remove="Samples\Controls\RadCartesianChart\RadCartesianChart_Demo.xaml" />
@@ -77,6 +78,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Content>
+    <Content Include="Other\embed.js" />
     <Content Include="Other\Styles.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
