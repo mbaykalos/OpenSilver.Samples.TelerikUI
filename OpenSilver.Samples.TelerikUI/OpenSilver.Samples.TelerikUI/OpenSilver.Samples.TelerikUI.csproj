@@ -231,7 +231,7 @@
 
   <ItemGroup>
     <PackageReference Include="OpenSilver" Version="1.0.0-beta.1.22" />
-    <PackageReference Include="OpenSilver.Compatibility.TelerikUI" Version="0.1.0-alpha-003" />
+    <PackageReference Include="OpenSilver.Compatibility.TelerikUI" Version="1.0.0-beta.1.22.1" />
   </ItemGroup>
 
 </Project>
