@@ -14,9 +14,9 @@
             </Grid.RowDefinitions>
             <ContentControl Content="GroupBox" Foreground="#FFFF81E3" Background="#FFCB9DC1" Style="{StaticResource HeaderControl_Style}"/>
             <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <!--<controls:GroupBox Header="GroupBox Header">
+                <controls:GroupBox Header="GroupBox Header">
                     <TextBlock>I am inside a groupbox</TextBlock>
-                </controls:GroupBox>-->
+                </controls:GroupBox>
             </StackPanel>
 
             <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FFFF81E3" Style="{StaticResource ButtonViewSource_Style}"/>
