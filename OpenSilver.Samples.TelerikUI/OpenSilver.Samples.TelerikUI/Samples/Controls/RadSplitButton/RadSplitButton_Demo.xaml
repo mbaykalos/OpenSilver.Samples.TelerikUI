@@ -14,13 +14,15 @@
             </Grid.RowDefinitions>
             <ContentControl Content="RadSplitButton" Foreground="#FFFFA443" Background="#FFCB9E73" Style="{StaticResource HeaderControl_Style}"/>
             <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <!--<controls:RadSplitButton Content="Split Button">
-                    <ListBox x:Name="FindActions" SelectionMode="Single">
-                        <ListBoxItem Content="Quick Find" IsSelected="True" />
-                        <ListBoxItem Content="Find in Files" />
-                        <ListBoxItem Content="Find Symbols" />
-                    </ListBox>
-                </controls:RadSplitButton>-->
+                <controls:RadSplitButton Content="Split Button">
+                    <controls:RadSplitButton.DropDownContent>
+                        <ListBox x:Name="FindActions" SelectionMode="Single">
+                            <ListBoxItem Content="Quick Find" IsSelected="True" />
+                            <ListBoxItem Content="Find in Files" />
+                            <ListBoxItem Content="Find Symbols" />
+                        </ListBox>
+                    </controls:RadSplitButton.DropDownContent>
+                </controls:RadSplitButton>
             </StackPanel>
 
             <Button Grid.Row="2" Content="VIEW SOURCE..." Click="ButtonViewSource_Click" Background="#FF6F7DFF" Style="{StaticResource ButtonViewSource_Style}"/>
